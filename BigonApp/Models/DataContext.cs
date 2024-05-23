@@ -14,5 +14,11 @@ namespace BigonApp.Models
         }
 
         public DbSet<Color> Colors { get; set; }
+        public DbSet<Blog> Blogs { get; set; }
+        public DbSet<BlogCategory> BlogCategories { get; set; }
+        public DbSet<Tag> Tags { get; set; }
+        public DbSet<Brand> Brands { get; set; }
+        public DbSet<BlogToTag> BlogToTags { get; set; }
+
     }
 }
