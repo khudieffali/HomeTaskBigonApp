@@ -19,6 +19,6 @@ namespace BigonApp.Models
         public DbSet<Tag> Tags { get; set; }
         public DbSet<Brand> Brands { get; set; }
         public DbSet<BlogToTag> BlogToTags { get; set; }
-
+        public DbSet<Subscriber> Subscribers { get; set; }
     }
 }

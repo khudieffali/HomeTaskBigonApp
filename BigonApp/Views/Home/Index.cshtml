@@ -6299,7 +6299,7 @@
             </div>
             <div class="col-md-5">
               <div class="newsletter-box">
-                <form action="#">
+                <form class="newsForm" action="#">
                   <input
                     class="subscribe"
                     placeholder="Enter your email address"
@@ -6315,3 +6315,39 @@
         </div>
       </div>
       <!-- Signup-Newsletter End -->
+
+     @section scripts{
+
+         <script>
+             $(document).ready(function(){
+       
+               let form = $(".newsForm")
+               form.on("submit",(e)=>{
+                     e.preventDefault();
+                    let emailData=new FormData(e.target);
+                        $.ajax({
+                          method:"POST",
+                          url: "@Url.Action("SendEmail","Home")",
+                          processData:false,
+                          contentType: false,
+                          data:emailData,
+                          success: function(r){
+                              if(r.success){
+                                toastr.success(r.message,"Successful")
+                                form[0].reset();
+                                return
+                              }
+                             toastr.error(r.message, "Error")
+                             return
+                          },
+                          error:function(){
+
+                          }
+                         
+                     })
+                 })
+              
+             })
+
+         </script>
+     }

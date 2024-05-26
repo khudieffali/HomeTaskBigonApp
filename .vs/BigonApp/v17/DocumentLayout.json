@@ -1,12 +1,173 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "D:\\Praktikant\\GarageTask\\BigonApp\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{80119B4D-162D-4413-9E19-2A4A42AD80F6}|BigonApp\\BigonApp.csproj|d:\\praktikant\\garagetask\\bigonapp\\bigonapp\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{80119B4D-162D-4413-9E19-2A4A42AD80F6}|BigonApp\\BigonApp.csproj|solutionrelative:bigonapp\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80119B4D-162D-4413-9E19-2A4A42AD80F6}|BigonApp\\BigonApp.csproj|d:\\praktikant\\garagetask\\bigonapp\\bigonapp\\wwwroot\\libs\\toastr.js\\toastradditional.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{80119B4D-162D-4413-9E19-2A4A42AD80F6}|BigonApp\\BigonApp.csproj|solutionrelative:bigonapp\\wwwroot\\libs\\toastr.js\\toastradditional.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80119B4D-162D-4413-9E19-2A4A42AD80F6}|BigonApp\\BigonApp.csproj|d:\\praktikant\\garagetask\\bigonapp\\bigonapp\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{80119B4D-162D-4413-9E19-2A4A42AD80F6}|BigonApp\\BigonApp.csproj|solutionrelative:bigonapp\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80119B4D-162D-4413-9E19-2A4A42AD80F6}|BigonApp\\BigonApp.csproj|d:\\praktikant\\garagetask\\bigonapp\\bigonapp\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80119B4D-162D-4413-9E19-2A4A42AD80F6}|BigonApp\\BigonApp.csproj|solutionrelative:bigonapp\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80119B4D-162D-4413-9E19-2A4A42AD80F6}|BigonApp\\BigonApp.csproj|d:\\praktikant\\garagetask\\bigonapp\\bigonapp\\models\\entities\\subscriber.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80119B4D-162D-4413-9E19-2A4A42AD80F6}|BigonApp\\BigonApp.csproj|solutionrelative:bigonapp\\models\\entities\\subscriber.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Praktikant\\GarageTask\\BigonApp\\BigonApp\\Migrations\\20240526211749_newSubscriberEntity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:BigonApp\\Migrations\\20240526211749_newSubscriberEntity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80119B4D-162D-4413-9E19-2A4A42AD80F6}|BigonApp\\BigonApp.csproj|d:\\praktikant\\garagetask\\bigonapp\\bigonapp\\models\\datacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80119B4D-162D-4413-9E19-2A4A42AD80F6}|BigonApp\\BigonApp.csproj|solutionrelative:bigonapp\\models\\datacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80119B4D-162D-4413-9E19-2A4A42AD80F6}|BigonApp\\BigonApp.csproj|d:\\praktikant\\garagetask\\bigonapp\\bigonapp\\models\\persistances\\configurations\\subscriberentityconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80119B4D-162D-4413-9E19-2A4A42AD80F6}|BigonApp\\BigonApp.csproj|solutionrelative:bigonapp\\models\\persistances\\configurations\\subscriberentityconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80119B4D-162D-4413-9E19-2A4A42AD80F6}|BigonApp\\BigonApp.csproj|d:\\praktikant\\garagetask\\bigonapp\\bigonapp\\models\\persistances\\configurations\\blogentityconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80119B4D-162D-4413-9E19-2A4A42AD80F6}|BigonApp\\BigonApp.csproj|solutionrelative:bigonapp\\models\\persistances\\configurations\\blogentityconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "toastradditional.js",
+              "DocumentMoniker": "D:\\Praktikant\\GarageTask\\BigonApp\\BigonApp\\wwwroot\\libs\\toastr.js\\toastradditional.js",
+              "RelativeDocumentMoniker": "BigonApp\\wwwroot\\libs\\toastr.js\\toastradditional.js",
+              "ToolTip": "D:\\Praktikant\\GarageTask\\BigonApp\\BigonApp\\wwwroot\\libs\\toastr.js\\toastradditional.js",
+              "RelativeToolTip": "BigonApp\\wwwroot\\libs\\toastr.js\\toastradditional.js",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-05-26T21:46:41.526Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "20240526211749_newSubscriberEntity.cs",
+              "DocumentMoniker": "D:\\Praktikant\\GarageTask\\BigonApp\\BigonApp\\Migrations\\20240526211749_newSubscriberEntity.cs",
+              "RelativeDocumentMoniker": "BigonApp\\Migrations\\20240526211749_newSubscriberEntity.cs",
+              "ToolTip": "D:\\Praktikant\\GarageTask\\BigonApp\\BigonApp\\Migrations\\20240526211749_newSubscriberEntity.cs",
+              "RelativeToolTip": "BigonApp\\Migrations\\20240526211749_newSubscriberEntity.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-26T21:17:50.433Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "BlogEntityConfiguration.cs",
+              "DocumentMoniker": "D:\\Praktikant\\GarageTask\\BigonApp\\BigonApp\\Models\\Persistances\\Configurations\\BlogEntityConfiguration.cs",
+              "RelativeDocumentMoniker": "BigonApp\\Models\\Persistances\\Configurations\\BlogEntityConfiguration.cs",
+              "ToolTip": "D:\\Praktikant\\GarageTask\\BigonApp\\BigonApp\\Models\\Persistances\\Configurations\\BlogEntityConfiguration.cs",
+              "RelativeToolTip": "BigonApp\\Models\\Persistances\\Configurations\\BlogEntityConfiguration.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-26T21:13:20.853Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "SubscriberEntityConfiguration.cs",
+              "DocumentMoniker": "D:\\Praktikant\\GarageTask\\BigonApp\\BigonApp\\Models\\Persistances\\Configurations\\SubscriberEntityConfiguration.cs",
+              "RelativeDocumentMoniker": "BigonApp\\Models\\Persistances\\Configurations\\SubscriberEntityConfiguration.cs",
+              "ToolTip": "D:\\Praktikant\\GarageTask\\BigonApp\\BigonApp\\Models\\Persistances\\Configurations\\SubscriberEntityConfiguration.cs",
+              "RelativeToolTip": "BigonApp\\Models\\Persistances\\Configurations\\SubscriberEntityConfiguration.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAABVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-26T21:12:48.27Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "DataContext.cs",
+              "DocumentMoniker": "D:\\Praktikant\\GarageTask\\BigonApp\\BigonApp\\Models\\DataContext.cs",
+              "RelativeDocumentMoniker": "BigonApp\\Models\\DataContext.cs",
+              "ToolTip": "D:\\Praktikant\\GarageTask\\BigonApp\\BigonApp\\Models\\DataContext.cs",
+              "RelativeToolTip": "BigonApp\\Models\\DataContext.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABUAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-26T21:05:35.042Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Subscriber.cs",
+              "DocumentMoniker": "D:\\Praktikant\\GarageTask\\BigonApp\\BigonApp\\Models\\Entities\\Subscriber.cs",
+              "RelativeDocumentMoniker": "BigonApp\\Models\\Entities\\Subscriber.cs",
+              "ToolTip": "D:\\Praktikant\\GarageTask\\BigonApp\\BigonApp\\Models\\Entities\\Subscriber.cs",
+              "RelativeToolTip": "BigonApp\\Models\\Entities\\Subscriber.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAIAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-26T21:04:00.632Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\Praktikant\\GarageTask\\BigonApp\\BigonApp\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "BigonApp\\Controllers\\HomeController.cs",
+              "ToolTip": "D:\\Praktikant\\GarageTask\\BigonApp\\BigonApp\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "BigonApp\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAACUAAAAAAAAAAAAYwDgAAAA5AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-26T19:28:54.555Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Praktikant\\GarageTask\\BigonApp\\BigonApp\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "BigonApp\\Views\\Home\\Index.cshtml",
+              "ToolTip": "D:\\Praktikant\\GarageTask\\BigonApp\\BigonApp\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "BigonApp\\Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAALcYAAAAAAAAAAAAAMQYAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-26T19:20:59.769Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\Praktikant\\GarageTask\\BigonApp\\BigonApp\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "BigonApp\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\Praktikant\\GarageTask\\BigonApp\\BigonApp\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "BigonApp\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAAEEAAAAAAAAAAAAABUEAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-26T19:20:33.885Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }

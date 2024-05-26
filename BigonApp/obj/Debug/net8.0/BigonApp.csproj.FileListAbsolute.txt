@@ -133,3 +133,4 @@ D:\Praktikant\GarageTask\BigonApp\BigonApp\obj\Debug\net8.0\refint\BigonApp.dll
 D:\Praktikant\GarageTask\BigonApp\BigonApp\obj\Debug\net8.0\BigonApp.pdb
 D:\Praktikant\GarageTask\BigonApp\BigonApp\obj\Debug\net8.0\BigonApp.genruntimeconfig.cache
 D:\Praktikant\GarageTask\BigonApp\BigonApp\obj\Debug\net8.0\ref\BigonApp.dll
+D:\Praktikant\GarageTask\BigonApp\BigonApp\bin\Debug\net8.0\libman.json

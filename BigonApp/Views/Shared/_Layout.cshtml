@@ -37,6 +37,9 @@
     <link rel="stylesheet" href="~/assets/css/style.css" />
     <!-- responsive css -->
     <link rel="stylesheet" href="~/assets/css/responsive.css" />
+    <link rel="stylesheet" href="~/libs/toastr.js/toastr.css" />
+
+
 
     <!-- modernizr js -->
     <script src="~/assets/js/vendor/modernizr-2.8.3.min.js"></script>
@@ -1036,8 +1039,13 @@
     <script src="~/assets/js/bootstrap.bundle.min.js"></script>
     <!-- plugins -->
     <script src="~/assets/js/plugins.js"></script>
+
     <!-- main js -->
     <script src="~/assets/js/main.js"></script>
+    <script src="~/libs/toastr.js/toastr.min.js"></script>
+    <script src="~/libs/toastr.js/toastradditional.js"></script>
+
+    @RenderSection("scripts",false)
 </body>
 
 <!-- Mirrored from htmldemo.net/bigon/bigon/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 12 Sep 2022 07:31:31 GMT -->
