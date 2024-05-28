@@ -6334,7 +6334,7 @@
                           success: function(r){
                               if(r.success){
                                 toastr.success(r.message,"Successful")
-                                form[0].reset();
+                                form.trigger("reset")
                                 return
                               }
                              toastr.error(r.message, "Error")

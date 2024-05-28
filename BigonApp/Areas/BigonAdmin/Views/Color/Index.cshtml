@@ -1,0 +1,49 @@
+﻿@model List<Color>
+<div class="card">
+    <div class="card-header">
+        <h5>Colors</h5>
+        </br>
+        <a asp-action="create" asp-asp-controller="color" class="btn btn-primary mt-3">Create</a>
+    </div>
+    <div class="card-block table-border-style">
+        <div class="table-responsive">
+            <table class="table table-inverse">
+                <thead>
+                    <tr>
+                        <th>Color</th>
+                        <th>Color Name</th>
+                        <th>Actions</th>
+
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in Model)
+                    {
+                        <tr>
+
+                            <td><span color style="background:@item.HexCode"></span></td>
+                            <td>@item.Name</td>
+                            <td>
+                                <a class="btn btn-warning text-white"><i class="fa-solid fa-pen-to-square"></i></a>
+                                <a class="btn btn-primary text-white"><i class="fa-solid fa-info"></i></a>
+                                <a class="btn btn-danger text-white"><i class="fa-solid fa-trash"></i></a>
+                            </td>
+                        </tr>
+                   
+                    }
+
+
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+<style>
+    span[color] {
+        display: inline-block;
+        height: 30px;
+        width: 30px;
+        border-radius: 100%;
+        border: 2px solid #cdcdcd;
+    }
+</style>
