@@ -12,7 +12,7 @@ namespace BigonApp.Controllers
         public IActionResult Details()
         {
             Blog? blog = _context.Blogs.FirstOrDefault();
-            List<Tag> tagList = [.. _context.Tags];
+            List<Tag> tagList = [.. _context.Tags.Where(x=>x.DeletedBy==null)];
             BlogVM vm = new() { Blog = blog,TagList=tagList };
             return View(vm);
         }
