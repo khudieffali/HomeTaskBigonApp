@@ -24,12 +24,14 @@
                             <td><span color style="background:@item.HexCode"></span></td>
                             <td>@item.Name</td>
                             <td>
-                                <a class="btn btn-warning text-white"><i class="fa-solid fa-pen-to-square"></i></a>
-                                <a class="btn btn-primary text-white"><i class="fa-solid fa-info"></i></a>
-                                <a class="btn btn-danger text-white"><i class="fa-solid fa-trash"></i></a>
+                                <a asp-controller="color" asp-action="edit" asp-route-id="@item.Id" class="btn btn-warning text-white"><i class="fa-solid fa-pen-to-square"></i></a>
+                                <a asp-controller="color" asp-action="details" asp-route-id="@item.Id" class="btn btn-primary text-white"><i class="fa-solid fa-info"></i></a>
+                                <a onclick="removeColor(@item.Id,'@item.Name')" class="btn btn-danger text-white">
+                                    <i class="fa-solid fa-trash"></i>
+                                    </a>
                             </td>
                         </tr>
-                   
+
                     }
 
 
@@ -38,6 +40,57 @@
         </div>
     </div>
 </div>
+@section scripts {
+    <script>
+        function removeColor(id, name) {
+            Swal.fire({
+                title: "Are you sure?",
+                text: "You won't be able to revert this!",
+                icon: "warning",
+                showCancelButton: true,
+                confirmButtonColor: "#3085d6",
+                cancelButtonColor: "#d33",
+                confirmButtonText: "Yes, delete it!"
+            }).then((result) => {
+                if (result.isConfirmed) {
+                    $.ajax({
+                        method: "POST",
+                        url: "@Url.Action("remove","color")",
+                        data: { id,name },
+                        success: (result) => {
+                            if (!result.error) {
+                                Swal.fire({
+                                    title: "Deleted!",
+                                    text: result.message,
+                                    icon: "success"
+                                });
+
+                                setTimeout(() => {
+                                    location.reload();
+                                }, 2000); 
+                                return;
+                            }
+                            Swal.fire({
+                                title: "Not Deleted!",
+                                text: result.message,
+                                icon: "error"
+                            });
+                        },
+                        error: (error) => { 
+                            Swal.fire({
+                                title: "Error",
+                                text: "",
+                                icon: "error"
+                            });
+                        }
+                    });
+                }
+            });
+        }
+      
+    </script>
+}
+
 <style>
     span[color] {
         display: inline-block;

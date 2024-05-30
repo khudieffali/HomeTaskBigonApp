@@ -1,0 +1,19 @@
+﻿@model Tag
+<div class="card">
+    <div class="card-header">
+        <h5>Create Tag Page</h5>
+        </br>
+        <a asp-action="Index" asp-controller="Tag" class="mt-3 btn btn-primary">Back To List</a>
+    </div>
+    <div class="card-block">
+        <form method="post">
+            <div class="form-group row">
+                <label class="col-sm-2 col-form-label">Tag Name</label>
+                <div class="col-sm-10">
+                    <input asp-for="Name" class="form-control" placeholder="Tag Name">
+                </div>
+            </div>
+            <input type="submit" class="btn btn-success text-white" value="Edit">
+        </form>
+    </div>
+</div>

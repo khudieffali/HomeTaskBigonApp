@@ -30,6 +30,14 @@ build_property._RazorSourceGeneratorDebug =
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQmlnb25BZG1pblxWaWV3c1xDb2xvclxDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[D:/Praktikant/GarageTask/BigonApp/BigonApp/Areas/BigonAdmin/Views/Color/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQmlnb25BZG1pblxWaWV3c1xDb2xvclxEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Praktikant/GarageTask/BigonApp/BigonApp/Areas/BigonAdmin/Views/Color/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQmlnb25BZG1pblxWaWV3c1xDb2xvclxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/Praktikant/GarageTask/BigonApp/BigonApp/Areas/BigonAdmin/Views/Color/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQmlnb25BZG1pblxWaWV3c1xDb2xvclxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
@@ -40,6 +48,22 @@ build_metadata.AdditionalFiles.CssScope =
 
 [D:/Praktikant/GarageTask/BigonApp/BigonApp/Areas/BigonAdmin/Views/Shared/_LayoutAdmin.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQmlnb25BZG1pblxWaWV3c1xTaGFyZWRcX0xheW91dEFkbWluLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Praktikant/GarageTask/BigonApp/BigonApp/Areas/BigonAdmin/Views/Tag/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQmlnb25BZG1pblxWaWV3c1xUYWdcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Praktikant/GarageTask/BigonApp/BigonApp/Areas/BigonAdmin/Views/Tag/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQmlnb25BZG1pblxWaWV3c1xUYWdcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Praktikant/GarageTask/BigonApp/BigonApp/Areas/BigonAdmin/Views/Tag/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQmlnb25BZG1pblxWaWV3c1xUYWdcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Praktikant/GarageTask/BigonApp/BigonApp/Areas/BigonAdmin/Views/Tag/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQmlnb25BZG1pblxWaWV3c1xUYWdcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/Praktikant/GarageTask/BigonApp/BigonApp/Areas/BigonAdmin/Views/_ViewImports.cshtml]

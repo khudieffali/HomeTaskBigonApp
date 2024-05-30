@@ -1,0 +1,32 @@
+﻿@model Tag
+
+<div class="card">
+    <div class="card-header">
+        <h5>Details Tag Page</h5>
+        </br>
+        <a asp-action="Index" asp-controller="tag" class="mt-3 btn btn-primary">Back To List</a>
+        <a asp-controller="tag" asp-action="edit" asp-route-id="@Model.Id" class="btn btn-warning text-white mt-3"><i class="fa-solid fa-pen-to-square"></i>Edit</a>
+
+    </div>
+    <div class="card-block">
+        <label class="col-sm-2">Tag Name</label>
+        <label class="col-sm-10 form-control" style="background:#cdcdcd">@Model.Name</label>
+    </div>
+    <div class="card-block">
+        <label class="col-sm-2">Tag CreatedBy</label>
+        <label class="col-sm-10 form-control" style="background:#cdcdcd">@Model.CreatedBy</label>
+    </div>
+    <div class="card-block">
+        <label class="col-sm-2">Tag CreatedAt</label>
+        <label class="col-sm-10 form-control" style="background:#cdcdcd">@Model.CreatedAt</label>
+    </div>
+    <div class="card-block">
+        <label class="col-sm-2">Tag ModifiedBy</label>
+        <label class="col-sm-10 form-control" style="background:#cdcdcd">@Model.ModifiedBy</label>
+    </div>
+    <div class="card-block">
+        <label class="col-sm-2">Tag ModifiedAt</label>
+        <label class="col-sm-10 form-control" style="background:#cdcdcd">@Model.ModifiedAt</label>
+    </div>
+</div>
+

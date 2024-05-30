@@ -1,0 +1,93 @@
+﻿@model List<Tag>
+<div class="card">
+    <div class="card-header">
+        <h5>Tags</h5>
+        </br>
+        <a asp-action="create" asp-controller="tag" class="btn btn-primary mt-3">Create</a>
+    </div>
+    <div class="card-block table-border-style">
+        <div class="table-responsive">
+            <table class="table table-inverse">
+                <thead>
+                    <tr>
+                        <th>Tag Name</th>
+                        <th>Actions</th>
+
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in Model)
+                    {
+                        <tr>
+                            <td>@item.Name</td>
+                            <td>
+                                <a asp-controller="tag" asp-action="edit" asp-route-id="@item.Id" class="btn btn-warning text-white"><i class="fa-solid fa-pen-to-square"></i></a>
+                                <a asp-controller="tag" asp-action="details" asp-route-id="@item.Id" class="btn btn-primary text-white"><i class="fa-solid fa-info"></i></a>
+                                <a onclick="removeTag(@item.Id,'@item.Name')" class="btn btn-danger text-white">
+                                    <i class="fa-solid fa-trash"></i>
+                                </a>
+                            </td>
+                        </tr>
+
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+@section scripts {
+    <script>
+        function removeTag(id, name) {
+            Swal.fire({
+                title: "Are you sure?",
+                text: "You won't be able to revert this!",
+                icon: "warning",
+                showCancelButton: true,
+                confirmButtonColor: "#3085d6",
+                cancelButtonColor: "#d33",
+                confirmButtonText: "Yes, delete it!"
+            }).then((result) => {
+                if (result.isConfirmed) {
+                    $.ajax({
+                        method: "POST",
+                        url: "@Url.Action("remove", "tag")",
+                        data: { id, name },
+                        success: (result) => {
+                            if (!result.error) {
+                                Swal.fire({
+                                    title: "Deleted!",
+                                    text: result.message,
+                                    icon: "success"
+                                });
+
+                                setTimeout(() => {
+                                    location.reload();
+                                }, 2000);
+                                return;
+                            }
+                            Swal.fire({
+                                title: "Not Deleted!",
+                                text: result.message,
+                                icon: "error"
+                            });
+                        },
+                        error: (error) => {
+                            Swal.fire({
+                                title: "Error",
+                                text: "",
+                                icon: "error"
+                            });
+                        }
+                    });
+                }
+            });
+        }
+
+    </script>
+}
+
+
+
+
+
+                                
