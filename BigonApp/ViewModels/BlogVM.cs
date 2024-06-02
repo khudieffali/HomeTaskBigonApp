@@ -1,4 +1,5 @@
-﻿using BigonApp.Models.Entities;
+﻿
+using Bigon.Infrastructure.Entities;
 
 namespace BigonApp.ViewModels
 {

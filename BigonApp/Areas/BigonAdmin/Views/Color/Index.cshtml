@@ -1,4 +1,5 @@
 ﻿@model List<Color>
+
 <div class="card">
     <div class="card-header">
         <h5>Colors</h5>
@@ -16,25 +17,8 @@
 
                     </tr>
                 </thead>
-                <tbody>
-                    @foreach (var item in Model)
-                    {
-                        <tr>
-
-                            <td><span color style="background:@item.HexCode"></span></td>
-                            <td>@item.Name</td>
-                            <td>
-                                <a asp-controller="color" asp-action="edit" asp-route-id="@item.Id" class="btn btn-warning text-white"><i class="fa-solid fa-pen-to-square"></i></a>
-                                <a asp-controller="color" asp-action="details" asp-route-id="@item.Id" class="btn btn-primary text-white"><i class="fa-solid fa-info"></i></a>
-                                <a onclick="removeColor(@item.Id,'@item.Name')" class="btn btn-danger text-white">
-                                    <i class="fa-solid fa-trash"></i>
-                                    </a>
-                            </td>
-                        </tr>
-
-                    }
-
-
+                <tbody id="colorList">
+                    <partial  name="_Body" model="@Model"/>
                 </tbody>
             </table>
         </div>
@@ -64,10 +48,7 @@
                                     text: result.message,
                                     icon: "success"
                                 });
-
-                                setTimeout(() => {
-                                    location.reload();
-                                }, 2000); 
+                                $("#colorList").html(result)
                                 return;
                             }
                             Swal.fire({

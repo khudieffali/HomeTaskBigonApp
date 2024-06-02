@@ -1,11 +1,11 @@
-﻿using BigonApp.Helpers.Services;
-using BigonApp.Models;
-using BigonApp.Models.Entities;
+﻿using Bigon.Infrastructure.Services.Abstracts;
+using Bigon.Infrastructure.Entities;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using System.Globalization;
 using System.Text.RegularExpressions;
 using System.Web;
+using Bigon.Data.Persistance;
 
 namespace BigonApp.Controllers
 {

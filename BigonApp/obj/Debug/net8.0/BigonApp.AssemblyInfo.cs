@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BigonApp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b9b2d51cfcb8f940b15ae4610d7a1fe185351aa3")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f1711c004b1a8323d9c385318e025c5fb76360f9")]
 [assembly: System.Reflection.AssemblyProductAttribute("BigonApp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BigonApp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

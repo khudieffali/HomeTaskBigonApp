@@ -1,6 +1,7 @@
-using BigonApp.Helpers;
-using BigonApp.Helpers.Services;
-using BigonApp.Models;
+using Bigon.Data.Persistance;
+using Bigon.Infrastructure.Commons.Concretes;
+using Bigon.Infrastructure.Services.Abstracts;
+using Bigon.Infrastructure.Services.Concretes;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -18,6 +19,9 @@ builder.Services.Configure<EmailOptions>(cfg =>
 });
 
 builder.Services.AddSingleton<IEmailService,EmailService>();
+builder.Services.AddSingleton<IDateTimeService, DateTimeService>();
+builder.Services.AddSingleton<IUserService, UserService>();
+
 
 
 var app = builder.Build();

@@ -1,0 +1,13 @@
+D:\Praktikant\GarageTask\BigonApp\Bigon.Infrastructure\bin\Debug\net8.0\Bigon.Infrastructure.deps.json
+D:\Praktikant\GarageTask\BigonApp\Bigon.Infrastructure\bin\Debug\net8.0\Bigon.Infrastructure.dll
+D:\Praktikant\GarageTask\BigonApp\Bigon.Infrastructure\bin\Debug\net8.0\Bigon.Infrastructure.pdb
+D:\Praktikant\GarageTask\BigonApp\Bigon.Infrastructure\obj\Debug\net8.0\Bigon.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+D:\Praktikant\GarageTask\BigonApp\Bigon.Infrastructure\obj\Debug\net8.0\Bigon.Infrastructure.AssemblyInfoInputs.cache
+D:\Praktikant\GarageTask\BigonApp\Bigon.Infrastructure\obj\Debug\net8.0\Bigon.Infrastructure.AssemblyInfo.cs
+D:\Praktikant\GarageTask\BigonApp\Bigon.Infrastructure\obj\Debug\net8.0\Bigon.Infrastructure.csproj.CoreCompileInputs.cache
+D:\Praktikant\GarageTask\BigonApp\Bigon.Infrastructure\obj\Debug\net8.0\Bigon.Infrastructure.sourcelink.json
+D:\Praktikant\GarageTask\BigonApp\Bigon.Infrastructure\obj\Debug\net8.0\Bigon.Infrastructure.dll
+D:\Praktikant\GarageTask\BigonApp\Bigon.Infrastructure\obj\Debug\net8.0\refint\Bigon.Infrastructure.dll
+D:\Praktikant\GarageTask\BigonApp\Bigon.Infrastructure\obj\Debug\net8.0\Bigon.Infrastructure.pdb
+D:\Praktikant\GarageTask\BigonApp\Bigon.Infrastructure\obj\Debug\net8.0\ref\Bigon.Infrastructure.dll
+D:\Praktikant\GarageTask\BigonApp\Bigon.Infrastructure\obj\Debug\net8.0\Bigon.Infrastructure.csproj.AssemblyReference.cache

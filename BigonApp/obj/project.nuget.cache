@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "i8qDTrjVVJlqI0DxP1HHDtdWJpeF16G1m9FTJC6V7vxITNSUmFBcmrQLdgOLLx/maxeKszI5My3bR1ip3V/SMQ==",
+  "dgSpecHash": "X2Qvek9R5KWBpG4iJx8/4MKE3yx4lJbq2L3frHKZ1M5j1HqpJKFGFCZf6sf+1DKeOUlkNIX+Wuc0JCiFI30TgQ==",
   "success": true,
   "projectFilePath": "D:\\Praktikant\\GarageTask\\BigonApp\\BigonApp\\BigonApp.csproj",
   "expectedPackageFiles": [
@@ -91,7 +91,7 @@
     "C:\\Users\\LENOVO\\.nuget\\packages\\microsoft.extensions.dependencymodel\\8.0.0\\microsoft.extensions.dependencymodel.8.0.0.nupkg.sha512",
     "C:\\Users\\LENOVO\\.nuget\\packages\\microsoft.extensions.logging\\8.0.0\\microsoft.extensions.logging.8.0.0.nupkg.sha512",
     "C:\\Users\\LENOVO\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\8.0.0\\microsoft.extensions.logging.abstractions.8.0.0.nupkg.sha512",
-    "C:\\Users\\LENOVO\\.nuget\\packages\\microsoft.extensions.options\\8.0.0\\microsoft.extensions.options.8.0.0.nupkg.sha512",
+    "C:\\Users\\LENOVO\\.nuget\\packages\\microsoft.extensions.options\\8.0.2\\microsoft.extensions.options.8.0.2.nupkg.sha512",
     "C:\\Users\\LENOVO\\.nuget\\packages\\microsoft.extensions.primitives\\8.0.0\\microsoft.extensions.primitives.8.0.0.nupkg.sha512",
     "C:\\Users\\LENOVO\\.nuget\\packages\\microsoft.identity.client\\4.56.0\\microsoft.identity.client.4.56.0.nupkg.sha512",
     "C:\\Users\\LENOVO\\.nuget\\packages\\microsoft.identity.client.extensions.msal\\4.56.0\\microsoft.identity.client.extensions.msal.4.56.0.nupkg.sha512",

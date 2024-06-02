@@ -1,0 +1,12 @@
+D:\Praktikant\GarageTask\BigonApp\Bigon.Business\bin\Debug\net8.0\Bigon.Business.deps.json
+D:\Praktikant\GarageTask\BigonApp\Bigon.Business\bin\Debug\net8.0\Bigon.Business.dll
+D:\Praktikant\GarageTask\BigonApp\Bigon.Business\bin\Debug\net8.0\Bigon.Business.pdb
+D:\Praktikant\GarageTask\BigonApp\Bigon.Business\obj\Debug\net8.0\Bigon.Business.GeneratedMSBuildEditorConfig.editorconfig
+D:\Praktikant\GarageTask\BigonApp\Bigon.Business\obj\Debug\net8.0\Bigon.Business.AssemblyInfoInputs.cache
+D:\Praktikant\GarageTask\BigonApp\Bigon.Business\obj\Debug\net8.0\Bigon.Business.AssemblyInfo.cs
+D:\Praktikant\GarageTask\BigonApp\Bigon.Business\obj\Debug\net8.0\Bigon.Business.csproj.CoreCompileInputs.cache
+D:\Praktikant\GarageTask\BigonApp\Bigon.Business\obj\Debug\net8.0\Bigon.Business.sourcelink.json
+D:\Praktikant\GarageTask\BigonApp\Bigon.Business\obj\Debug\net8.0\Bigon.Business.dll
+D:\Praktikant\GarageTask\BigonApp\Bigon.Business\obj\Debug\net8.0\refint\Bigon.Business.dll
+D:\Praktikant\GarageTask\BigonApp\Bigon.Business\obj\Debug\net8.0\Bigon.Business.pdb
+D:\Praktikant\GarageTask\BigonApp\Bigon.Business\obj\Debug\net8.0\ref\Bigon.Business.dll

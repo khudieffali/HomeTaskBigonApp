@@ -1,5 +1,5 @@
-﻿using BigonApp.Models;
-using BigonApp.Models.Entities;
+﻿using Bigon.Data.Persistance;
+using Bigon.Infrastructure.Entities;
 using BigonApp.ViewModels;
 using Microsoft.AspNetCore.Mvc;
 

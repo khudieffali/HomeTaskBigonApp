@@ -1,5 +1,5 @@
-﻿using BigonApp.Models;
-using BigonApp.Models.Entities;
+﻿using Bigon.Data.Persistance;
+using Bigon.Infrastructure.Entities;
 using Microsoft.AspNetCore.Mvc;
 
 namespace BigonApp.Areas.BigonAdmin.Controllers
@@ -21,8 +21,6 @@ namespace BigonApp.Areas.BigonAdmin.Controllers
         [HttpPost]
         public async Task<IActionResult> Create(Color color)
         {
-            color.CreatedAt = DateTime.Now;
-            color.CreatedBy = 1;
             await _context.Colors.AddAsync(color);
             await _context.SaveChangesAsync();
             return RedirectToAction(nameof(Index));
@@ -42,8 +40,6 @@ namespace BigonApp.Areas.BigonAdmin.Controllers
               return NotFound();
             dbColor.Name = color.Name;
             dbColor.HexCode = color.HexCode;
-            dbColor.ModifiedBy = 2;
-            dbColor.ModifiedAt = DateTime.UtcNow;
             await _context.SaveChangesAsync();
             return RedirectToAction(nameof(Index));
         }
@@ -65,14 +61,10 @@ namespace BigonApp.Areas.BigonAdmin.Controllers
                     error = true,
                     message = "Data was not found!"
                 });
-            color.DeletedAt = DateTime.UtcNow;
-            color.DeletedBy = 3;
+            _context.Colors.Remove(color);
             await _context.SaveChangesAsync();
-            return Ok(new
-            {
-                error = false,
-                message = "Your data has been successfully deleted"
-            });
+            List<Color> colorList = [.._context.Colors.Where(x=>x.DeletedBy==null)];
+            return PartialView("_Body",colorList);
         }
     }
 }

@@ -1,5 +1,5 @@
-﻿using BigonApp.Models;
-using BigonApp.Models.Entities;
+﻿using Bigon.Data.Persistance;
+using Bigon.Infrastructure.Entities;
 using Microsoft.AspNetCore.Mvc;
 
 namespace BigonApp.Areas.BigonAdmin.Controllers
@@ -21,8 +21,6 @@ namespace BigonApp.Areas.BigonAdmin.Controllers
         public async Task<IActionResult> Create(Tag tag)
         {
             if (tag == null) return NotFound();
-            tag.CreatedAt = DateTime.UtcNow;
-            tag.CreatedBy = 1;
             await _context.Tags.AddAsync(tag);
             await _context.SaveChangesAsync();
             return RedirectToAction(nameof(Index));
@@ -39,8 +37,6 @@ namespace BigonApp.Areas.BigonAdmin.Controllers
             if(tag == null) return NotFound();
             var dbTag =await  _context.Tags.FindAsync(tag.Id);
             dbTag.Name= tag.Name;
-            dbTag.ModifiedAt = DateTime.UtcNow;
-            dbTag.ModifiedBy = 2;
             await _context.SaveChangesAsync();
             return RedirectToAction(nameof(Index));
         }
@@ -61,8 +57,7 @@ namespace BigonApp.Areas.BigonAdmin.Controllers
                     error = true,
                     message = "Data was not found"
                 });
-            dbTag.DeletedAt = DateTime.UtcNow;
-            dbTag.DeletedBy = 3;
+            _context.Tags.Remove(dbTag);
             await _context.SaveChangesAsync();
             return Ok(new
             {
