@@ -1,12 +1,207 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "D:\\Praktikant\\GarageTask\\BigonApp\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{80119B4D-162D-4413-9E19-2A4A42AD80F6}|BigonApp\\BigonApp.csproj|d:\\praktikant\\garagetask\\bigonapp\\bigonapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80119B4D-162D-4413-9E19-2A4A42AD80F6}|BigonApp\\BigonApp.csproj|solutionrelative:bigonapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80119B4D-162D-4413-9E19-2A4A42AD80F6}|BigonApp\\BigonApp.csproj|d:\\praktikant\\garagetask\\bigonapp\\bigonapp\\areas\\bigonadmin\\views\\tag\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{80119B4D-162D-4413-9E19-2A4A42AD80F6}|BigonApp\\BigonApp.csproj|solutionrelative:bigonapp\\areas\\bigonadmin\\views\\tag\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80119B4D-162D-4413-9E19-2A4A42AD80F6}|BigonApp\\BigonApp.csproj|d:\\praktikant\\garagetask\\bigonapp\\bigonapp\\areas\\bigonadmin\\views\\color\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{80119B4D-162D-4413-9E19-2A4A42AD80F6}|BigonApp\\BigonApp.csproj|solutionrelative:bigonapp\\areas\\bigonadmin\\views\\color\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80119B4D-162D-4413-9E19-2A4A42AD80F6}|BigonApp\\BigonApp.csproj|d:\\praktikant\\garagetask\\bigonapp\\bigonapp\\areas\\bigonadmin\\controllers\\tagcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80119B4D-162D-4413-9E19-2A4A42AD80F6}|BigonApp\\BigonApp.csproj|solutionrelative:bigonapp\\areas\\bigonadmin\\controllers\\tagcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80119B4D-162D-4413-9E19-2A4A42AD80F6}|BigonApp\\BigonApp.csproj|d:\\praktikant\\garagetask\\bigonapp\\bigonapp\\areas\\bigonadmin\\views\\tag\\_body.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{80119B4D-162D-4413-9E19-2A4A42AD80F6}|BigonApp\\BigonApp.csproj|solutionrelative:bigonapp\\areas\\bigonadmin\\views\\tag\\_body.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80119B4D-162D-4413-9E19-2A4A42AD80F6}|BigonApp\\BigonApp.csproj|d:\\praktikant\\garagetask\\bigonapp\\bigonapp\\areas\\bigonadmin\\views\\color\\_body.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{80119B4D-162D-4413-9E19-2A4A42AD80F6}|BigonApp\\BigonApp.csproj|solutionrelative:bigonapp\\areas\\bigonadmin\\views\\color\\_body.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80119B4D-162D-4413-9E19-2A4A42AD80F6}|BigonApp\\BigonApp.csproj|d:\\praktikant\\garagetask\\bigonapp\\bigonapp\\areas\\bigonadmin\\controllers\\colorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80119B4D-162D-4413-9E19-2A4A42AD80F6}|BigonApp\\BigonApp.csproj|solutionrelative:bigonapp\\areas\\bigonadmin\\controllers\\colorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98F3628D-8A99-43DB-B7EA-064A47FD0628}|Bigon.Infrastructure\\Bigon.Infrastructure.csproj|d:\\praktikant\\garagetask\\bigonapp\\bigon.infrastructure\\repositories\\itagrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98F3628D-8A99-43DB-B7EA-064A47FD0628}|Bigon.Infrastructure\\Bigon.Infrastructure.csproj|solutionrelative:bigon.infrastructure\\repositories\\itagrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ABFC90DD-B73A-40BF-B28F-B0708F9C8265}|Bigon.Data\\Bigon.Data.csproj|d:\\praktikant\\garagetask\\bigonapp\\bigon.data\\repositories\\tagrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ABFC90DD-B73A-40BF-B28F-B0708F9C8265}|Bigon.Data\\Bigon.Data.csproj|solutionrelative:bigon.data\\repositories\\tagrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98F3628D-8A99-43DB-B7EA-064A47FD0628}|Bigon.Infrastructure\\Bigon.Infrastructure.csproj|d:\\praktikant\\garagetask\\bigonapp\\bigon.infrastructure\\repositories\\icolorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98F3628D-8A99-43DB-B7EA-064A47FD0628}|Bigon.Infrastructure\\Bigon.Infrastructure.csproj|solutionrelative:bigon.infrastructure\\repositories\\icolorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98F3628D-8A99-43DB-B7EA-064A47FD0628}|Bigon.Infrastructure\\Bigon.Infrastructure.csproj|d:\\praktikant\\garagetask\\bigonapp\\bigon.infrastructure\\commons\\concretes\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98F3628D-8A99-43DB-B7EA-064A47FD0628}|Bigon.Infrastructure\\Bigon.Infrastructure.csproj|solutionrelative:bigon.infrastructure\\commons\\concretes\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Praktikant\\GarageTask\\BigonApp\\BigonApp\\Program.cs",
+              "RelativeDocumentMoniker": "BigonApp\\Program.cs",
+              "ToolTip": "D:\\Praktikant\\GarageTask\\BigonApp\\BigonApp\\Program.cs",
+              "RelativeToolTip": "BigonApp\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-04T08:22:39.716Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Praktikant\\GarageTask\\BigonApp\\BigonApp\\Areas\\BigonAdmin\\Views\\Color\\Index.cshtml",
+              "RelativeDocumentMoniker": "BigonApp\\Areas\\BigonAdmin\\Views\\Color\\Index.cshtml",
+              "ToolTip": "D:\\Praktikant\\GarageTask\\BigonApp\\BigonApp\\Areas\\BigonAdmin\\Views\\Color\\Index.cshtml",
+              "RelativeToolTip": "BigonApp\\Areas\\BigonAdmin\\Views\\Color\\Index.cshtml",
+              "ViewState": "AQIAACEAAAAAAAAAAAAAADIAAAA8AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-04T08:20:01.206Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "_Body.cshtml",
+              "DocumentMoniker": "D:\\Praktikant\\GarageTask\\BigonApp\\BigonApp\\Areas\\BigonAdmin\\Views\\Color\\_Body.cshtml",
+              "RelativeDocumentMoniker": "BigonApp\\Areas\\BigonAdmin\\Views\\Color\\_Body.cshtml",
+              "ToolTip": "D:\\Praktikant\\GarageTask\\BigonApp\\BigonApp\\Areas\\BigonAdmin\\Views\\Color\\_Body.cshtml",
+              "RelativeToolTip": "BigonApp\\Areas\\BigonAdmin\\Views\\Color\\_Body.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-04T08:18:49.92Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Praktikant\\GarageTask\\BigonApp\\BigonApp\\Areas\\BigonAdmin\\Views\\Tag\\Index.cshtml",
+              "RelativeDocumentMoniker": "BigonApp\\Areas\\BigonAdmin\\Views\\Tag\\Index.cshtml",
+              "ToolTip": "D:\\Praktikant\\GarageTask\\BigonApp\\BigonApp\\Areas\\BigonAdmin\\Views\\Tag\\Index.cshtml",
+              "RelativeToolTip": "BigonApp\\Areas\\BigonAdmin\\Views\\Tag\\Index.cshtml",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAADIAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-04T08:18:45.81Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "_Body.cshtml",
+              "DocumentMoniker": "D:\\Praktikant\\GarageTask\\BigonApp\\BigonApp\\Areas\\BigonAdmin\\Views\\Tag\\_Body.cshtml",
+              "RelativeDocumentMoniker": "BigonApp\\Areas\\BigonAdmin\\Views\\Tag\\_Body.cshtml",
+              "ToolTip": "D:\\Praktikant\\GarageTask\\BigonApp\\BigonApp\\Areas\\BigonAdmin\\Views\\Tag\\_Body.cshtml",
+              "RelativeToolTip": "BigonApp\\Areas\\BigonAdmin\\Views\\Tag\\_Body.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-04T08:18:41.932Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "TagController.cs",
+              "DocumentMoniker": "D:\\Praktikant\\GarageTask\\BigonApp\\BigonApp\\Areas\\BigonAdmin\\Controllers\\TagController.cs",
+              "RelativeDocumentMoniker": "BigonApp\\Areas\\BigonAdmin\\Controllers\\TagController.cs",
+              "ToolTip": "D:\\Praktikant\\GarageTask\\BigonApp\\BigonApp\\Areas\\BigonAdmin\\Controllers\\TagController.cs",
+              "RelativeToolTip": "BigonApp\\Areas\\BigonAdmin\\Controllers\\TagController.cs",
+              "ViewState": "AQIAADIAAAAAAAAAAAAswEEAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-04T08:13:09.631Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "IColorRepository.cs",
+              "DocumentMoniker": "D:\\Praktikant\\GarageTask\\BigonApp\\Bigon.Infrastructure\\Repositories\\IColorRepository.cs",
+              "RelativeDocumentMoniker": "Bigon.Infrastructure\\Repositories\\IColorRepository.cs",
+              "ToolTip": "D:\\Praktikant\\GarageTask\\BigonApp\\Bigon.Infrastructure\\Repositories\\IColorRepository.cs",
+              "RelativeToolTip": "Bigon.Infrastructure\\Repositories\\IColorRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-04T08:12:03.44Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ITagRepository.cs",
+              "DocumentMoniker": "D:\\Praktikant\\GarageTask\\BigonApp\\Bigon.Infrastructure\\Repositories\\ITagRepository.cs",
+              "RelativeDocumentMoniker": "Bigon.Infrastructure\\Repositories\\ITagRepository.cs",
+              "ToolTip": "D:\\Praktikant\\GarageTask\\BigonApp\\Bigon.Infrastructure\\Repositories\\ITagRepository.cs",
+              "RelativeToolTip": "Bigon.Infrastructure\\Repositories\\ITagRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-04T08:11:53.948Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "TagRepository.cs",
+              "DocumentMoniker": "D:\\Praktikant\\GarageTask\\BigonApp\\Bigon.Data\\Repositories\\TagRepository.cs",
+              "RelativeDocumentMoniker": "Bigon.Data\\Repositories\\TagRepository.cs",
+              "ToolTip": "D:\\Praktikant\\GarageTask\\BigonApp\\Bigon.Data\\Repositories\\TagRepository.cs",
+              "RelativeToolTip": "Bigon.Data\\Repositories\\TagRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-04T08:11:19.684Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Repository.cs",
+              "DocumentMoniker": "D:\\Praktikant\\GarageTask\\BigonApp\\Bigon.Infrastructure\\Commons\\Concretes\\Repository.cs",
+              "RelativeDocumentMoniker": "Bigon.Infrastructure\\Commons\\Concretes\\Repository.cs",
+              "ToolTip": "D:\\Praktikant\\GarageTask\\BigonApp\\Bigon.Infrastructure\\Commons\\Concretes\\Repository.cs",
+              "RelativeToolTip": "Bigon.Infrastructure\\Commons\\Concretes\\Repository.cs",
+              "ViewState": "AQIAACYAAAAAAAAAAAAgwDQAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-04T08:06:19.074Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ColorController.cs",
+              "DocumentMoniker": "D:\\Praktikant\\GarageTask\\BigonApp\\BigonApp\\Areas\\BigonAdmin\\Controllers\\ColorController.cs",
+              "RelativeDocumentMoniker": "BigonApp\\Areas\\BigonAdmin\\Controllers\\ColorController.cs",
+              "ToolTip": "D:\\Praktikant\\GarageTask\\BigonApp\\BigonApp\\Areas\\BigonAdmin\\Controllers\\ColorController.cs",
+              "RelativeToolTip": "BigonApp\\Areas\\BigonAdmin\\Controllers\\ColorController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADgAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-04T08:03:29.146Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }

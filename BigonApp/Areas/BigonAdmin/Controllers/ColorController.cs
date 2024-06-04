@@ -1,17 +1,19 @@
 ﻿using Bigon.Data.Persistance;
 using Bigon.Infrastructure.Entities;
+using Bigon.Infrastructure.Repositories;
 using Microsoft.AspNetCore.Mvc;
 
 namespace BigonApp.Areas.BigonAdmin.Controllers
 {
     [Area(nameof(BigonAdmin))]
-    public class ColorController(DataContext context) : Controller
+    public class ColorController(IColorRepository colorRepository) : Controller
     {
-        private readonly DataContext _context = context;
+        private readonly IColorRepository _colorRepository = colorRepository;
         public IActionResult Index()
         {
-            List<Color> colorList = [.. _context.Colors.Where(x => x.DeletedBy == null)];
-            return View(colorList);
+
+          IEnumerable<Color> colorList= _colorRepository.GetAll(x=>x.DeletedBy==null);
+           return View(colorList);
         }
         public IActionResult Create()
         {
@@ -21,49 +23,48 @@ namespace BigonApp.Areas.BigonAdmin.Controllers
         [HttpPost]
         public async Task<IActionResult> Create(Color color)
         {
-            await _context.Colors.AddAsync(color);
-            await _context.SaveChangesAsync();
+            await _colorRepository.Add(color);
+            await _colorRepository.Save();
             return RedirectToAction(nameof(Index));
         }
 
         public async Task<IActionResult> Edit(int id)
         {
-            var color = _context.Colors.Find(id);
+            var color = await _colorRepository.GetById(x => x.Id == id);
             if (color == null) return NotFound();
             return View(color);
         }
         [HttpPost]
         public async Task<IActionResult> Edit(Color color)
         {
-            var dbColor = _context.Colors.Find(color.Id);
+            var dbColor = await _colorRepository.GetById(x => x.Id == color.Id);
             if (dbColor == null)
               return NotFound();
-            dbColor.Name = color.Name;
-            dbColor.HexCode = color.HexCode;
-            await _context.SaveChangesAsync();
+             _colorRepository.Edit(dbColor);
+            await _colorRepository.Save();
             return RedirectToAction(nameof(Index));
         }
 
         public async Task<IActionResult> Details(int id)
         {
 
-            var color = _context.Colors.Find(id);
-            if (color == null) return NotFound();
-            return View(color);
+            var dbColor = await _colorRepository.GetById(x => x.Id ==id);
+            if (dbColor == null) return NotFound();
+            return View(dbColor);
         }
 
-        public async Task<IActionResult> Remove(int id)
+        public async  Task<IActionResult> Remove(int id)
         {
-            var color = _context.Colors.Find(id);
+            var color = await _colorRepository.GetById(x=>x.Id==id);
             if (color == null)
                 return Json(new
                 {
                     error = true,
                     message = "Data was not found!"
                 });
-            _context.Colors.Remove(color);
-            await _context.SaveChangesAsync();
-            List<Color> colorList = [.._context.Colors.Where(x=>x.DeletedBy==null)];
+             _colorRepository.Remove(color);
+             _colorRepository.Save();
+            IEnumerable<Color> colorList = _colorRepository.GetAll(x=>x.DeletedBy==null);
             return PartialView("_Body",colorList);
         }
     }

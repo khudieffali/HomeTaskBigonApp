@@ -1,3 +1,4 @@
+using Bigon.Data;
 using Bigon.Data.Persistance;
 using Bigon.Infrastructure.Commons.Concretes;
 using Bigon.Infrastructure.Services.Abstracts;
@@ -8,8 +9,7 @@ var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddControllersWithViews();
 var cString = builder.Configuration.GetConnectionString("BigonDB");
-builder.Services.AddDbContext<DataContext>(opt => opt.UseSqlServer(cString,
-    cfg => cfg.MigrationsHistoryTable("Migrations")));
+DataServiceInjection.InstallDataServices(builder.Services,builder.Configuration);
 
 
 var emailConfig = builder.Configuration.GetSection("emailSender");
@@ -21,9 +21,7 @@ builder.Services.Configure<EmailOptions>(cfg =>
 builder.Services.AddSingleton<IEmailService,EmailService>();
 builder.Services.AddSingleton<IDateTimeService, DateTimeService>();
 builder.Services.AddSingleton<IUserService, UserService>();
-
-
-
+builder.Services.AddRouting(c => c.LowercaseUrls = true);
 var app = builder.Build();
 app.MapControllerRoute(
   name: "areas",

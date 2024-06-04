@@ -70,6 +70,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQmlnb25BZG1pblxWaWV3c1xUYWdcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[D:/Praktikant/GarageTask/BigonApp/BigonApp/Areas/BigonAdmin/Views/Tag/_Body.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQmlnb25BZG1pblxWaWV3c1xUYWdcX0JvZHkuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/Praktikant/GarageTask/BigonApp/BigonApp/Areas/BigonAdmin/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQmlnb25BZG1pblxWaWV3c1xfVmlld0ltcG9ydHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 

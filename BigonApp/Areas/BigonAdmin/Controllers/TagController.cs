@@ -1,16 +1,17 @@
 ﻿using Bigon.Data.Persistance;
 using Bigon.Infrastructure.Entities;
+using Bigon.Infrastructure.Repositories;
 using Microsoft.AspNetCore.Mvc;
 
 namespace BigonApp.Areas.BigonAdmin.Controllers
 {
     [Area(nameof(BigonAdmin))]
-    public class TagController(DataContext context) : Controller
+    public class TagController(ITagRepository tagRepository) : Controller
     {
-        private readonly DataContext _context = context;
+       private readonly ITagRepository _tagRepository=tagRepository;
         public IActionResult Index()
         {
-            List<Tag> tagList = [.. _context.Tags.Where(x => x.DeletedBy == null)];
+            var tagList = _tagRepository.GetAll(x => x.DeletedBy == null);
             return View(tagList);
         }
         public IActionResult Create()
@@ -21,13 +22,13 @@ namespace BigonApp.Areas.BigonAdmin.Controllers
         public async Task<IActionResult> Create(Tag tag)
         {
             if (tag == null) return NotFound();
-            await _context.Tags.AddAsync(tag);
-            await _context.SaveChangesAsync();
+            await _tagRepository.Add(tag);
+            await _tagRepository.Save();
             return RedirectToAction(nameof(Index));
         }
         public async Task<IActionResult> Edit(int id)
         {
-            var dbTag =await _context.Tags.FindAsync(id);
+            var dbTag =await _tagRepository.GetById(x=>x.Id==id);
             if (dbTag == null) return NotFound();
             return View(dbTag);
         }
@@ -35,35 +36,34 @@ namespace BigonApp.Areas.BigonAdmin.Controllers
         public async Task<IActionResult> Edit(Tag? tag)
         {
             if(tag == null) return NotFound();
-            var dbTag =await  _context.Tags.FindAsync(tag.Id);
+            var dbTag =await _tagRepository.GetById(x=>x.Id==tag.Id);
+            if(dbTag == null) return NotFound();
             dbTag.Name= tag.Name;
-            await _context.SaveChangesAsync();
+            await _tagRepository.Save();
             return RedirectToAction(nameof(Index));
         }
 
         public async Task<IActionResult> Details(int id)
         {
-            var dbTag =await _context.Tags.FindAsync(id);
+            var dbTag =await _tagRepository.GetById(x=>x.Id==id);
             if (dbTag == null) return NotFound();
             return View(dbTag);
         }
         [HttpPost]
         public async Task<IActionResult> Remove(int id)
         {
-            var dbTag = _context.Tags.Find(id);
+            var dbTag =await _tagRepository.GetById(x=>x.Id==id);
             if (dbTag == null)
                 return Json(new
                 {
                     error = true,
                     message = "Data was not found"
                 });
-            _context.Tags.Remove(dbTag);
-            await _context.SaveChangesAsync();
-            return Ok(new
-            {
-                error=false,
-                message= "Your data has been successfully deleted"
-            });
+            _tagRepository.Remove(dbTag);
+             _tagRepository.Save();
+            var tagList = _tagRepository.GetAll(x => x.DeletedBy == null);
+
+            return PartialView("_Body", tagList);
         }
 
     }

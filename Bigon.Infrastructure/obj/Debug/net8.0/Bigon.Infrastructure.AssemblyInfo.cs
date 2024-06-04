@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Bigon.Infrastructure")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f1711c004b1a8323d9c385318e025c5fb76360f9")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d5f5e1f9bab4426f85b4f8c635957574ba515806")]
 [assembly: System.Reflection.AssemblyProductAttribute("Bigon.Infrastructure")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Bigon.Infrastructure")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
