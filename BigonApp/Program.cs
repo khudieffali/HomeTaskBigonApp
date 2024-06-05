@@ -1,3 +1,4 @@
+using Bigon.Business;
 using Bigon.Data;
 using Bigon.Data.Persistance;
 using Bigon.Infrastructure.Commons.Concretes;
@@ -11,6 +12,10 @@ builder.Services.AddControllersWithViews();
 var cString = builder.Configuration.GetConnectionString("BigonDB");
 DataServiceInjection.InstallDataServices(builder.Services,builder.Configuration);
 
+builder.Services.AddMediatR(x =>
+{
+    x.RegisterServicesFromAssembly(typeof(IBusinessServices).Assembly);
+});
 
 var emailConfig = builder.Configuration.GetSection("emailSender");
 builder.Services.Configure<EmailOptions>(cfg =>

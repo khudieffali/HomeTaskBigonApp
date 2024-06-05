@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "nk5sdrn0do+BTM92x/MemT1IbOKszcdnzsONKy8/bO7jyH8AOzsz3PZYpD2Q/BUVtVYhLp7M9yvQez1r3xZwtQ==",
+  "dgSpecHash": "ragCjFvCB1tZ/2RBYoij1Z5tsalgZ8I/X6nLJ5Ash9U7AqrgMvAWihywgUhKdYcDnAOWaYgwKJdPCzLd/nD1BA==",
   "success": true,
   "projectFilePath": "D:\\Praktikant\\GarageTask\\BigonApp\\BigonApp\\BigonApp.csproj",
   "expectedPackageFiles": [
@@ -56,6 +56,8 @@
     "C:\\Users\\LENOVO\\.nuget\\packages\\humanizer.core.zh-cn\\2.14.1\\humanizer.core.zh-cn.2.14.1.nupkg.sha512",
     "C:\\Users\\LENOVO\\.nuget\\packages\\humanizer.core.zh-hans\\2.14.1\\humanizer.core.zh-hans.2.14.1.nupkg.sha512",
     "C:\\Users\\LENOVO\\.nuget\\packages\\humanizer.core.zh-hant\\2.14.1\\humanizer.core.zh-hant.2.14.1.nupkg.sha512",
+    "C:\\Users\\LENOVO\\.nuget\\packages\\mediatr\\12.2.0\\mediatr.12.2.0.nupkg.sha512",
+    "C:\\Users\\LENOVO\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",
     "C:\\Users\\LENOVO\\.nuget\\packages\\microsoft.aspnetcore.razor.language\\6.0.24\\microsoft.aspnetcore.razor.language.6.0.24.nupkg.sha512",
     "C:\\Users\\LENOVO\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\7.0.0\\microsoft.bcl.asyncinterfaces.7.0.0.nupkg.sha512",
     "C:\\Users\\LENOVO\\.nuget\\packages\\microsoft.build\\17.8.3\\microsoft.build.17.8.3.nupkg.sha512",

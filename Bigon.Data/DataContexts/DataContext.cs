@@ -32,11 +32,18 @@ namespace Bigon.Data.Persistance
                         case EntityState.Modified:
                             entity.Entity.ModifiedAt = _dateTimeService.ExecutingTime;
                             entity.Entity.ModifiedBy = _userService.GetPrincipialId();
+
+                            entity.Property(x=>x.CreatedBy).IsModified=false;
+                            entity.Property(x=>x.CreatedAt).IsModified=false;
                             break;
                         case EntityState.Deleted:
                             entity.State = EntityState.Modified;
                             entity.Entity.DeletedAt = _dateTimeService.ExecutingTime;
                             entity.Entity.DeletedBy = _userService.GetPrincipialId();
+                            entity.Property(x => x.CreatedBy).IsModified = false;
+                            entity.Property(x => x.CreatedAt).IsModified = false;
+                            entity.Property(x => x.ModifiedBy).IsModified = false;
+                            entity.Property(x => x.ModifiedAt).IsModified = false;
                             break;
                         default:
                             break;

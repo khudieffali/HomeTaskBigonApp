@@ -255,3 +255,7 @@ D:\Praktikant\GarageTask\BigonApp\BigonApp\bin\Debug\net8.0\Bigon.Data.dll
 D:\Praktikant\GarageTask\BigonApp\BigonApp\bin\Debug\net8.0\Bigon.Infrastructure.dll
 D:\Praktikant\GarageTask\BigonApp\BigonApp\bin\Debug\net8.0\Bigon.Data.pdb
 D:\Praktikant\GarageTask\BigonApp\BigonApp\bin\Debug\net8.0\Bigon.Infrastructure.pdb
+D:\Praktikant\GarageTask\BigonApp\BigonApp\bin\Debug\net8.0\MediatR.dll
+D:\Praktikant\GarageTask\BigonApp\BigonApp\bin\Debug\net8.0\MediatR.Contracts.dll
+D:\Praktikant\GarageTask\BigonApp\BigonApp\bin\Debug\net8.0\Bigon.Business.dll
+D:\Praktikant\GarageTask\BigonApp\BigonApp\bin\Debug\net8.0\Bigon.Business.pdb

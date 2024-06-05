@@ -21,13 +21,13 @@ namespace Bigon.Infrastructure.Commons.Concretes
 
         private readonly DbSet<T> _table;
        
-        public  IEnumerable<T> GetAll(Expression<Func<T, bool>> predicate = null)
+        public async Task<IEnumerable<T>> GetAll(Expression<Func<T, bool>> predicate = null)
         {
             if (predicate == null)
             {
-                return [.. _table];
+                return await _table.ToListAsync();
             }
-            var list = _table.Where(predicate).ToList();
+            var list =await  _table.Where(predicate).ToListAsync();
             return list;
         }
 
@@ -46,13 +46,15 @@ namespace Bigon.Infrastructure.Commons.Concretes
             await Save();
             return data;
         }
-        public T Edit(T data)
+        public async Task<T> Edit(T data)
         {
+            _table.Entry(data).State= EntityState.Modified;
+            await Save();
             return data;
         }
-        public async void Remove(T data)
+        public async Task Remove(T data)
         {
-             _table.Remove(data);
+              _table.Remove(data);
             await Save();
         }
 

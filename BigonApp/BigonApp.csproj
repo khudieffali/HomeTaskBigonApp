@@ -93,7 +93,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="8.0.5" />
+	  <PackageReference Include="MediatR" Version="12.2.0" />
+	  <PackageReference Include="Microsoft.EntityFrameworkCore" Version="8.0.5" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="8.0.5">
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
@@ -209,6 +210,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\Bigon.Business\Bigon.Business.csproj" />
     <ProjectReference Include="..\Bigon.Data\Bigon.Data.csproj" />
     <ProjectReference Include="..\Bigon.Infrastructure\Bigon.Infrastructure.csproj" />
   </ItemGroup>

@@ -10,3 +10,9 @@ D:\Praktikant\GarageTask\BigonApp\Bigon.Business\obj\Debug\net8.0\Bigon.Business
 D:\Praktikant\GarageTask\BigonApp\Bigon.Business\obj\Debug\net8.0\refint\Bigon.Business.dll
 D:\Praktikant\GarageTask\BigonApp\Bigon.Business\obj\Debug\net8.0\Bigon.Business.pdb
 D:\Praktikant\GarageTask\BigonApp\Bigon.Business\obj\Debug\net8.0\ref\Bigon.Business.dll
+D:\Praktikant\GarageTask\BigonApp\Bigon.Business\obj\Debug\net8.0\Bigon.Business.csproj.AssemblyReference.cache
+D:\Praktikant\GarageTask\BigonApp\Bigon.Business\bin\Debug\net8.0\Bigon.Data.dll
+D:\Praktikant\GarageTask\BigonApp\Bigon.Business\bin\Debug\net8.0\Bigon.Infrastructure.dll
+D:\Praktikant\GarageTask\BigonApp\Bigon.Business\bin\Debug\net8.0\Bigon.Data.pdb
+D:\Praktikant\GarageTask\BigonApp\Bigon.Business\bin\Debug\net8.0\Bigon.Infrastructure.pdb
+D:\Praktikant\GarageTask\BigonApp\Bigon.Business\obj\Debug\net8.0\Bigon.Bu.058043D3.Up2Date
