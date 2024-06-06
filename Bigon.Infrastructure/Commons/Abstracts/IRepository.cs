@@ -13,11 +13,11 @@ namespace Bigon.Infrastructure.Commons.Abstracts
 
         Task<T> GetById(Expression<Func<T, bool>> predicate = null);
 
-        Task<T> Add(T color);
+        Task<T> Add(T data);
 
-        Task<T> Edit(T color);
+        Task<T> Edit(T data);
 
-       Task Remove(T color);
+       Task Remove(T data);
 
 
         Task<int> Save();

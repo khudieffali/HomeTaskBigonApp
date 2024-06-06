@@ -1,17 +1,24 @@
-﻿using Bigon.Data.Persistance;
+﻿using Azure;
+using Bigon.Business.Modules.TagsModule.Commands.TagsAddCommands;
+using Bigon.Business.Modules.TagsModule.Commands.TagsDeleteCommands;
+using Bigon.Business.Modules.TagsModule.Commands.TagsEditCommands;
+using Bigon.Business.Modules.TagsModule.Queries.TagsGetAllQuery;
+using Bigon.Business.Modules.TagsModule.Queries.TagsGetQuery;
+using Bigon.Data.Persistance;
 using Bigon.Infrastructure.Entities;
 using Bigon.Infrastructure.Repositories;
+using MediatR;
 using Microsoft.AspNetCore.Mvc;
 
 namespace BigonApp.Areas.BigonAdmin.Controllers
 {
     [Area(nameof(BigonAdmin))]
-    public class TagController(ITagRepository tagRepository) : Controller
+    public class TagController(IMediator mediator) : Controller
     {
-       private readonly ITagRepository _tagRepository=tagRepository;
-        public IActionResult Index()
+       private readonly IMediator _mediator=mediator;
+        public async Task<IActionResult> Index(TagsGetAllRequest request)
         {
-            var tagList = _tagRepository.GetAll(x => x.DeletedBy == null);
+            var tagList = await _mediator.Send(request);
             return View(tagList);
         }
         public IActionResult Create()
@@ -19,50 +26,35 @@ namespace BigonApp.Areas.BigonAdmin.Controllers
             return View();
         }
         [HttpPost]
-        public async Task<IActionResult> Create(Tag tag)
+        public async Task<IActionResult> Create(TagsAddRequest request)
         {
-            if (tag == null) return NotFound();
-            await _tagRepository.Add(tag);
-            await _tagRepository.Save();
+            await _mediator.Send(request);
             return RedirectToAction(nameof(Index));
         }
-        public async Task<IActionResult> Edit(int id)
+        public async Task<IActionResult> Edit(TagsGetRequest request)
         {
-            var dbTag =await _tagRepository.GetById(x=>x.Id==id);
+            var dbTag =await _mediator.Send(request);
             if (dbTag == null) return NotFound();
             return View(dbTag);
         }
         [HttpPost]
-        public async Task<IActionResult> Edit(Tag? tag)
+        public async Task<IActionResult> Edit(TagsEditRequest request)
         {
-            if(tag == null) return NotFound();
-            var dbTag =await _tagRepository.GetById(x=>x.Id==tag.Id);
-            if(dbTag == null) return NotFound();
-            dbTag.Name= tag.Name;
-            await _tagRepository.Save();
+            await _mediator.Send(request);
             return RedirectToAction(nameof(Index));
         }
 
-        public async Task<IActionResult> Details(int id)
+        public async Task<IActionResult> Details(TagsGetRequest request)
         {
-            var dbTag =await _tagRepository.GetById(x=>x.Id==id);
+            var dbTag = await _mediator.Send(request);
             if (dbTag == null) return NotFound();
             return View(dbTag);
         }
         [HttpPost]
-        public async Task<IActionResult> Remove(int id)
+        public async Task<IActionResult> Remove(TagsDeleteRequest request)
         {
-            var dbTag =await _tagRepository.GetById(x=>x.Id==id);
-            if (dbTag == null)
-                return Json(new
-                {
-                    error = true,
-                    message = "Data was not found"
-                });
-            _tagRepository.Remove(dbTag);
-             _tagRepository.Save();
-            var tagList = _tagRepository.GetAll(x => x.DeletedBy == null);
 
+            var tagList =await _mediator.Send(request);
             return PartialView("_Body", tagList);
         }
 

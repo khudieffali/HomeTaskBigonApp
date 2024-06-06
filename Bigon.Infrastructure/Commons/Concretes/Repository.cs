@@ -54,7 +54,7 @@ namespace Bigon.Infrastructure.Commons.Concretes
         }
         public async Task Remove(T data)
         {
-              _table.Remove(data);
+             _table.Remove(data);
             await Save();
         }
 

@@ -43,7 +43,7 @@ namespace BigonApp.Areas.BigonAdmin.Controllers
         [HttpPost]
         public async Task<IActionResult> Edit(ColorsEditRequest request)
         {
-            var dbColor =await _mediator.Send(request);
+           await _mediator.Send(request);
             return RedirectToAction(nameof(Index));
         }
 

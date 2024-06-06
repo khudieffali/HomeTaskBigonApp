@@ -1,104 +1,12 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "D:\\Praktikant\\GarageTask\\BigonApp\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{80119B4D-162D-4413-9E19-2A4A42AD80F6}|BigonApp\\BigonApp.csproj|d:\\praktikant\\garagetask\\bigonapp\\bigonapp\\areas\\bigonadmin\\controllers\\colorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{80119B4D-162D-4413-9E19-2A4A42AD80F6}|BigonApp\\BigonApp.csproj|solutionrelative:bigonapp\\areas\\bigonadmin\\controllers\\colorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{98F3628D-8A99-43DB-B7EA-064A47FD0628}|Bigon.Infrastructure\\Bigon.Infrastructure.csproj|D:\\Praktikant\\GarageTask\\BigonApp\\bigon.infrastructure\\commons\\concretes\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{98F3628D-8A99-43DB-B7EA-064A47FD0628}|Bigon.Infrastructure\\Bigon.Infrastructure.csproj|solutionrelative:bigon.infrastructure\\commons\\concretes\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{98F3628D-8A99-43DB-B7EA-064A47FD0628}|Bigon.Infrastructure\\Bigon.Infrastructure.csproj|D:\\Praktikant\\GarageTask\\BigonApp\\bigon.infrastructure\\commons\\abstracts\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{98F3628D-8A99-43DB-B7EA-064A47FD0628}|Bigon.Infrastructure\\Bigon.Infrastructure.csproj|solutionrelative:bigon.infrastructure\\commons\\abstracts\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{985EFEA6-20FD-4A59-9542-C5AFFFB87228}|Bigon.Business\\Bigon.Business.csproj|D:\\Praktikant\\GarageTask\\BigonApp\\bigon.business\\modules\\colorsmodule\\commands\\colorsdeletecommands\\colorsdeletehandlerrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{985EFEA6-20FD-4A59-9542-C5AFFFB87228}|Bigon.Business\\Bigon.Business.csproj|solutionrelative:bigon.business\\modules\\colorsmodule\\commands\\colorsdeletecommands\\colorsdeletehandlerrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{985EFEA6-20FD-4A59-9542-C5AFFFB87228}|Bigon.Business\\Bigon.Business.csproj|D:\\Praktikant\\GarageTask\\BigonApp\\bigon.business\\modules\\colorsmodule\\commands\\colorsdeletecommands\\colorsdeleterequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{985EFEA6-20FD-4A59-9542-C5AFFFB87228}|Bigon.Business\\Bigon.Business.csproj|solutionrelative:bigon.business\\modules\\colorsmodule\\commands\\colorsdeletecommands\\colorsdeleterequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": [
-        {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 2,
-          "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Repository.cs",
-              "DocumentMoniker": "D:\\Praktikant\\GarageTask\\BigonApp\\Bigon.Infrastructure\\Commons\\Concretes\\Repository.cs",
-              "RelativeDocumentMoniker": "Bigon.Infrastructure\\Commons\\Concretes\\Repository.cs",
-              "ToolTip": "D:\\Praktikant\\GarageTask\\BigonApp\\Bigon.Infrastructure\\Commons\\Concretes\\Repository.cs",
-              "RelativeToolTip": "Bigon.Infrastructure\\Commons\\Concretes\\Repository.cs",
-              "ViewState": "AQIAACYAAAAAAAAAAAAhwDkAAAAZAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-05T22:08:28.122Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "IRepository.cs",
-              "DocumentMoniker": "D:\\Praktikant\\GarageTask\\BigonApp\\Bigon.Infrastructure\\Commons\\Abstracts\\IRepository.cs",
-              "RelativeDocumentMoniker": "Bigon.Infrastructure\\Commons\\Abstracts\\IRepository.cs",
-              "ToolTip": "D:\\Praktikant\\GarageTask\\BigonApp\\Bigon.Infrastructure\\Commons\\Abstracts\\IRepository.cs",
-              "RelativeToolTip": "Bigon.Infrastructure\\Commons\\Abstracts\\IRepository.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAADwvxMAAAASAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-05T21:55:33.27Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ColorController.cs",
-              "DocumentMoniker": "D:\\Praktikant\\GarageTask\\BigonApp\\BigonApp\\Areas\\BigonAdmin\\Controllers\\ColorController.cs",
-              "RelativeDocumentMoniker": "BigonApp\\Areas\\BigonAdmin\\Controllers\\ColorController.cs",
-              "ToolTip": "D:\\Praktikant\\GarageTask\\BigonApp\\BigonApp\\Areas\\BigonAdmin\\Controllers\\ColorController.cs",
-              "RelativeToolTip": "BigonApp\\Areas\\BigonAdmin\\Controllers\\ColorController.cs",
-              "ViewState": "AQIAACcAAAAAAAAAAADgvzkAAAAUAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-05T21:51:19.039Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ColorsDeleteHandlerRequest.cs",
-              "DocumentMoniker": "D:\\Praktikant\\GarageTask\\BigonApp\\Bigon.Business\\Modules\\ColorsModule\\Commands\\ColorsDeleteCommands\\ColorsDeleteHandlerRequest.cs",
-              "RelativeDocumentMoniker": "Bigon.Business\\Modules\\ColorsModule\\Commands\\ColorsDeleteCommands\\ColorsDeleteHandlerRequest.cs",
-              "ToolTip": "D:\\Praktikant\\GarageTask\\BigonApp\\Bigon.Business\\Modules\\ColorsModule\\Commands\\ColorsDeleteCommands\\ColorsDeleteHandlerRequest.cs",
-              "RelativeToolTip": "Bigon.Business\\Modules\\ColorsModule\\Commands\\ColorsDeleteCommands\\ColorsDeleteHandlerRequest.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAnAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-05T21:49:48.316Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "ColorsDeleteRequest.cs",
-              "DocumentMoniker": "D:\\Praktikant\\GarageTask\\BigonApp\\Bigon.Business\\Modules\\ColorsModule\\Commands\\ColorsDeleteCommands\\ColorsDeleteRequest.cs",
-              "RelativeDocumentMoniker": "Bigon.Business\\Modules\\ColorsModule\\Commands\\ColorsDeleteCommands\\ColorsDeleteRequest.cs",
-              "ToolTip": "D:\\Praktikant\\GarageTask\\BigonApp\\Bigon.Business\\Modules\\ColorsModule\\Commands\\ColorsDeleteCommands\\ColorsDeleteRequest.cs",
-              "RelativeToolTip": "Bigon.Business\\Modules\\ColorsModule\\Commands\\ColorsDeleteCommands\\ColorsDeleteRequest.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAYAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-05T21:49:07.503Z"
-            }
-          ]
-        }
-      ]
+      "DocumentGroups": []
     }
   ]
 }
