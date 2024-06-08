@@ -14,4 +14,8 @@
     <ProjectReference Include="..\Bigon.Data\Bigon.Data.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Modules\BlogsModule\Commands\" />
+  </ItemGroup>
+
 </Project>

@@ -250,7 +250,6 @@ D:\Praktikant\GarageTask\BigonApp\BigonApp\bin\Debug\net8.0\runtimes\win\lib\net
 D:\Praktikant\GarageTask\BigonApp\BigonApp\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Drawing.Common.dll
 D:\Praktikant\GarageTask\BigonApp\BigonApp\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Security.Cryptography.ProtectedData.dll
 D:\Praktikant\GarageTask\BigonApp\BigonApp\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Windows.Extensions.dll
-D:\Praktikant\GarageTask\BigonApp\BigonApp\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
 D:\Praktikant\GarageTask\BigonApp\BigonApp\bin\Debug\net8.0\Bigon.Data.dll
 D:\Praktikant\GarageTask\BigonApp\BigonApp\bin\Debug\net8.0\Bigon.Infrastructure.dll
 D:\Praktikant\GarageTask\BigonApp\BigonApp\bin\Debug\net8.0\Bigon.Data.pdb
@@ -259,3 +258,4 @@ D:\Praktikant\GarageTask\BigonApp\BigonApp\bin\Debug\net8.0\MediatR.dll
 D:\Praktikant\GarageTask\BigonApp\BigonApp\bin\Debug\net8.0\MediatR.Contracts.dll
 D:\Praktikant\GarageTask\BigonApp\BigonApp\bin\Debug\net8.0\Bigon.Business.dll
 D:\Praktikant\GarageTask\BigonApp\BigonApp\bin\Debug\net8.0\Bigon.Business.pdb
+D:\Praktikant\GarageTask\BigonApp\BigonApp\bin\Debug\net8.0\Microsoft.Extensions.Options.dll

@@ -2,6 +2,7 @@
 using Bigon.Infrastructure.Entities;
 using Bigon.Infrastructure.Services.Abstracts;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.ChangeTracking;
 
 namespace Bigon.Data.Persistance
 {
@@ -18,11 +19,13 @@ namespace Bigon.Data.Persistance
         public override async Task<int> SaveChangesAsync(CancellationToken token = new())
         {
             var changes = this.ChangeTracker.Entries<IAuditableEntity>();
+            
             if (changes != null)
             {
                 foreach (var entity in changes.Where(x => x.State == EntityState.Added ||
                 x.State == EntityState.Modified || x.State == EntityState.Deleted))
                 {
+                    
                     switch (entity.State)
                     {
                         case EntityState.Added:

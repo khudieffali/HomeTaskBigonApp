@@ -6005,6 +6005,22 @@
       "PackagePath": "staticwebassets\\libs\\toastr.js\\toastradditional.js"
     },
     {
+      "Id": "D:\\Praktikant\\GarageTask\\BigonApp\\BigonApp\\wwwroot\\uploads\\images\\443bb380-3d0f-4dcf-9fb3-498ebf29213c.jpeg",
+      "PackagePath": "staticwebassets\\uploads\\images\\443bb380-3d0f-4dcf-9fb3-498ebf29213c.jpeg"
+    },
+    {
+      "Id": "D:\\Praktikant\\GarageTask\\BigonApp\\BigonApp\\wwwroot\\uploads\\images\\b72c8dc5-0fac-40ce-8518-9b6d95d21917.png",
+      "PackagePath": "staticwebassets\\uploads\\images\\b72c8dc5-0fac-40ce-8518-9b6d95d21917.png"
+    },
+    {
+      "Id": "D:\\Praktikant\\GarageTask\\BigonApp\\BigonApp\\wwwroot\\uploads\\images\\bf22ce18-1f2a-477d-8fd6-4660c6a303ea.jpeg",
+      "PackagePath": "staticwebassets\\uploads\\images\\bf22ce18-1f2a-477d-8fd6-4660c6a303ea.jpeg"
+    },
+    {
+      "Id": "D:\\Praktikant\\GarageTask\\BigonApp\\BigonApp\\wwwroot\\uploads\\images\\edb3d8af-eb55-4d1e-82bc-a4f827a0cbdb.png",
+      "PackagePath": "staticwebassets\\uploads\\images\\edb3d8af-eb55-4d1e-82bc-a4f827a0cbdb.png"
+    },
+    {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.BigonApp.Microsoft.AspNetCore.StaticWebAssets.props",
       "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
     },

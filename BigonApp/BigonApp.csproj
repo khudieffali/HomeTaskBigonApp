@@ -109,6 +109,7 @@
 
   <ItemGroup>
     <Folder Include="Areas\BigonAdmin\Models\" />
+    <Folder Include="wwwroot\uploads\images\" />
   </ItemGroup>
 
   <ItemGroup>
@@ -211,7 +212,6 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Bigon.Business\Bigon.Business.csproj" />
-    <ProjectReference Include="..\Bigon.Data\Bigon.Data.csproj" />
     <ProjectReference Include="..\Bigon.Infrastructure\Bigon.Infrastructure.csproj" />
   </ItemGroup>
 

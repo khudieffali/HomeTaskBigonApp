@@ -22,7 +22,7 @@ namespace BigonApp.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
 
-            modelBuilder.Entity("BigonApp.Models.Entities.Blog", b =>
+            modelBuilder.Entity("Bigon.Infrastructure.Entities.Blog", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -31,6 +31,9 @@ namespace BigonApp.Migrations
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
                     b.Property<int>("BlogCategoryId")
+                        .HasColumnType("int");
+
+                    b.Property<int?>("BlogCategoryId1")
                         .HasColumnType("int");
 
                     b.Property<DateTime>("CreatedAt")
@@ -64,14 +67,29 @@ namespace BigonApp.Migrations
                         .HasMaxLength(256)
                         .HasColumnType("nvarchar");
 
+                    b.Property<DateTime?>("PublishedAt")
+                        .HasColumnType("datetime");
+
+                    b.Property<int>("PublishedBy")
+                        .HasColumnType("int");
+
+                    b.Property<string>("Slug")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(450)");
+
                     b.HasKey("Id");
 
                     b.HasIndex("BlogCategoryId");
 
+                    b.HasIndex("BlogCategoryId1");
+
+                    b.HasIndex("Slug")
+                        .IsUnique();
+
                     b.ToTable("Blogs");
                 });
 
-            modelBuilder.Entity("BigonApp.Models.Entities.BlogCategory", b =>
+            modelBuilder.Entity("Bigon.Infrastructure.Entities.BlogCategory", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -110,7 +128,7 @@ namespace BigonApp.Migrations
                     b.ToTable("BlogCategories");
                 });
 
-            modelBuilder.Entity("BigonApp.Models.Entities.BlogToTag", b =>
+            modelBuilder.Entity("Bigon.Infrastructure.Entities.BlogToTag", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -151,7 +169,7 @@ namespace BigonApp.Migrations
                     b.ToTable("BlogToTags");
                 });
 
-            modelBuilder.Entity("BigonApp.Models.Entities.Brand", b =>
+            modelBuilder.Entity("Bigon.Infrastructure.Entities.Brand", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -190,7 +208,7 @@ namespace BigonApp.Migrations
                     b.ToTable("Brands");
                 });
 
-            modelBuilder.Entity("BigonApp.Models.Entities.Color", b =>
+            modelBuilder.Entity("Bigon.Infrastructure.Entities.Color", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -231,7 +249,7 @@ namespace BigonApp.Migrations
                     b.ToTable("Colors", (string)null);
                 });
 
-            modelBuilder.Entity("BigonApp.Models.Entities.Subscriber", b =>
+            modelBuilder.Entity("Bigon.Infrastructure.Entities.Subscriber", b =>
                 {
                     b.Property<string>("EmailAddress")
                         .HasMaxLength(150)
@@ -251,7 +269,7 @@ namespace BigonApp.Migrations
                     b.ToTable("Subscribers");
                 });
 
-            modelBuilder.Entity("BigonApp.Models.Entities.Tag", b =>
+            modelBuilder.Entity("Bigon.Infrastructure.Entities.Tag", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -287,26 +305,30 @@ namespace BigonApp.Migrations
                     b.ToTable("Tags");
                 });
 
-            modelBuilder.Entity("BigonApp.Models.Entities.Blog", b =>
+            modelBuilder.Entity("Bigon.Infrastructure.Entities.Blog", b =>
                 {
-                    b.HasOne("BigonApp.Models.Entities.BlogCategory", "BlogCategory")
-                        .WithMany("Blogs")
+                    b.HasOne("Bigon.Infrastructure.Entities.BlogCategory", null)
+                        .WithMany()
                         .HasForeignKey("BlogCategoryId")
                         .OnDelete(DeleteBehavior.NoAction)
                         .IsRequired();
 
+                    b.HasOne("Bigon.Infrastructure.Entities.BlogCategory", "BlogCategory")
+                        .WithMany("Blogs")
+                        .HasForeignKey("BlogCategoryId1");
+
                     b.Navigation("BlogCategory");
                 });
 
-            modelBuilder.Entity("BigonApp.Models.Entities.BlogToTag", b =>
+            modelBuilder.Entity("Bigon.Infrastructure.Entities.BlogToTag", b =>
                 {
-                    b.HasOne("BigonApp.Models.Entities.Blog", "Blog")
+                    b.HasOne("Bigon.Infrastructure.Entities.Blog", "Blog")
                         .WithMany()
                         .HasForeignKey("BlogId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.HasOne("BigonApp.Models.Entities.Tag", "Tag")
+                    b.HasOne("Bigon.Infrastructure.Entities.Tag", "Tag")
                         .WithMany()
                         .HasForeignKey("TagId")
                         .OnDelete(DeleteBehavior.Cascade)
@@ -317,7 +339,7 @@ namespace BigonApp.Migrations
                     b.Navigation("Tag");
                 });
 
-            modelBuilder.Entity("BigonApp.Models.Entities.BlogCategory", b =>
+            modelBuilder.Entity("Bigon.Infrastructure.Entities.BlogCategory", b =>
                 {
                     b.Navigation("Blogs");
                 });

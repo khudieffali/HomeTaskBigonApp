@@ -26,6 +26,18 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = D:\Praktikant\GarageTask\BigonApp\BigonApp
 build_property._RazorSourceGeneratorDebug = 
 
+[D:/Praktikant/GarageTask/BigonApp/BigonApp/Areas/BigonAdmin/Views/Blog/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQmlnb25BZG1pblxWaWV3c1xCbG9nXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Praktikant/GarageTask/BigonApp/BigonApp/Areas/BigonAdmin/Views/Blog/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQmlnb25BZG1pblxWaWV3c1xCbG9nXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Praktikant/GarageTask/BigonApp/BigonApp/Areas/BigonAdmin/Views/Blog/_Body.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQmlnb25BZG1pblxWaWV3c1xCbG9nXF9Cb2R5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/Praktikant/GarageTask/BigonApp/BigonApp/Areas/BigonAdmin/Views/Color/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQmlnb25BZG1pblxWaWV3c1xDb2xvclxDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
