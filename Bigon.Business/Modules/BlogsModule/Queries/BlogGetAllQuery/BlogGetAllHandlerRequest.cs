@@ -26,7 +26,6 @@ namespace Bigon.Business.Modules.BlogsModule.Queries.BlogGetAllQuery
                                    BlogCategoryId = bl.BlogCategoryId,
                                    BlogCategoryName = ct.Name,
                                    ImagePath = bl.ImagePath,
-                                   Slug = bl.Slug,
                                }).ToList();
             return data;
         }

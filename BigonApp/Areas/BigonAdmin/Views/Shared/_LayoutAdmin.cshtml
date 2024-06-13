@@ -34,6 +34,9 @@
     <link rel="stylesheet" type="text/css" href="~/admin/assets/css/jquery.mCustomScrollbar.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="~/libs/sweetalert2/sweetalert2.css">
+    <link rel="stylesheet" href="~/admin/assets/css/additional.css">
+
+
 </head>
 <body>
     <!-- Pre-loader start -->
@@ -368,7 +371,7 @@
                                             </a>
                                         </li>
                                         <li class="active">
-                                            <a asp-action="Create" asp-controller="blog">
+                                            <a asp-action="index" asp-controller="blog">
                                                 <span class="pcoded-mtext">Blogs</span>
                                             </a>
                                         </li>
@@ -465,7 +468,8 @@
         <script type="text/javascript" src="~/admin/assets/pages/dashboard/custom-dashboard.js"></script>
         <script type="text/javascript" src="~/admin/assets/js/script.min.js"></script>
         <script type="text/javascript" src="~/libs/sweetalert2/sweetalert2.js"></script>
-      @RenderSection("scripts",false)
+
+        @RenderSection("scripts",false)
 </body>
 
 

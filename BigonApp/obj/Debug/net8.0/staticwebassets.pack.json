@@ -1,6 +1,10 @@
 {
   "Files": [
     {
+      "Id": "D:\\Praktikant\\GarageTask\\BigonApp\\BigonApp\\wwwroot\\admin\\assets\\css\\additional.css",
+      "PackagePath": "staticwebassets\\admin\\assets\\css\\additional.css"
+    },
+    {
       "Id": "D:\\Praktikant\\GarageTask\\BigonApp\\BigonApp\\wwwroot\\admin\\assets\\css\\component.css",
       "PackagePath": "staticwebassets\\admin\\assets\\css\\component.css"
     },
@@ -1939,6 +1943,10 @@
     {
       "Id": "D:\\Praktikant\\GarageTask\\BigonApp\\BigonApp\\wwwroot\\admin\\assets\\js\\SmoothScroll.js",
       "PackagePath": "staticwebassets\\admin\\assets\\js\\SmoothScroll.js"
+    },
+    {
+      "Id": "D:\\Praktikant\\GarageTask\\BigonApp\\BigonApp\\wwwroot\\admin\\assets\\js\\additional.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\js\\additional.js"
     },
     {
       "Id": "D:\\Praktikant\\GarageTask\\BigonApp\\BigonApp\\wwwroot\\admin\\assets\\js\\animation.js",
@@ -6007,6 +6015,14 @@
     {
       "Id": "D:\\Praktikant\\GarageTask\\BigonApp\\BigonApp\\wwwroot\\uploads\\images\\443bb380-3d0f-4dcf-9fb3-498ebf29213c.jpeg",
       "PackagePath": "staticwebassets\\uploads\\images\\443bb380-3d0f-4dcf-9fb3-498ebf29213c.jpeg"
+    },
+    {
+      "Id": "D:\\Praktikant\\GarageTask\\BigonApp\\BigonApp\\wwwroot\\uploads\\images\\70f6c19e-479c-4186-9784-951a18f056ff.png",
+      "PackagePath": "staticwebassets\\uploads\\images\\70f6c19e-479c-4186-9784-951a18f056ff.png"
+    },
+    {
+      "Id": "D:\\Praktikant\\GarageTask\\BigonApp\\BigonApp\\wwwroot\\uploads\\images\\7eced72d-ec51-4fcd-bfe4-db6b527f7b9a.png",
+      "PackagePath": "staticwebassets\\uploads\\images\\7eced72d-ec51-4fcd-bfe4-db6b527f7b9a.png"
     },
     {
       "Id": "D:\\Praktikant\\GarageTask\\BigonApp\\BigonApp\\wwwroot\\uploads\\images\\b72c8dc5-0fac-40ce-8518-9b6d95d21917.png",

@@ -1,0 +1,72 @@
+﻿@using Bigon.Business.Modules.BlogsModule.Queries.BlogGetByIdQuery
+@model BlogGetByIdDto
+
+@{
+    var categories = ViewBag.BlogCategories;
+}
+
+<div class="card">
+    <div class="card-header">
+        <h5>Edit Blog Page</h5>
+    </div>
+    <div class="card-block">
+        <form method="post" enctype="multipart/form-data">
+            <div class="form-group row">
+                <label asp-for=Name class="col-sm-2 col-form-label"></label>
+                <div class="col-sm-10">
+                    <input asp-for=Name class="form-control" placeholder="Title">
+                </div>
+            </div>
+
+            <div class="form-group row">
+                <label asp-for="Description" class="col-sm-2 col-form-label"></label>
+                <div class="col-sm-10">
+                    <input asp-for=Description class="form-control">
+                </div>
+            </div>
+
+
+            <div class="form-group row">
+                <label class="col-sm-2 col-form-label">Categories</label>
+                <div class="col-sm-10">
+                    <select asp-items="categories" asp-for="BlogCategoryId" class="form-control">
+                        <option selected disabled>--Select--</option>
+                    </select>
+                </div>
+            </div>
+
+
+            <div class="col-lg-12 mx-auto">
+                <label>Photo</label>
+                <!-- Upload image input-->
+                <div class="input-group mb-3 px-2 py-2 rounded-pill bg-white shadow-sm">
+                    <input id="upload"
+                           name="ImagePath"
+                           type="file"
+                           class="form-control border-0" />
+                    <label id="upload-label"
+                           for="upload"
+                           class="font-weight-light text-muted">Choose file</label>
+                    <div class="input-group-append">
+                        <label for="upload" class="btn btn-light m-0 rounded-pill px-4">
+                            <i class="fa fa-cloud-upload mr-2 text-muted"></i><small class="text-uppercase font-weight-bold text-muted">Choose file</small>
+                        </label>
+                    </div>
+                </div>
+
+                <div id="imageResult" class="image-area mt-4">
+                    <img src="~/uploads/images/@Model.ImagePath" class="img-fluid rounded shadow-sm mx-auto d-block mb-2">
+                </div>
+            </div>
+
+
+            <a class="btn btn-light" asp-action="index" asp-controller="blog">Back</a>
+            <input type="submit" class="btn btn-success" />
+        </form>
+    </div>
+</div>
+
+
+@section scripts {
+    <script src="~/admin/assets/js/additional.js"></script>
+}

@@ -4,10 +4,8 @@
 @foreach (var item in Model)
 {
     <tr>
-        <td>
-            <div style="width:250px;height:200px;">
-                <img style="width:200px;height:17 0px;object-fit:cover" src="~/uploads/images/@item.ImagePath" />
-            </div>
+        <td id="blogImage">
+                <img src="~/uploads/images/@item.ImagePath" />
         </td>
         <td>@item.Name</td>
         <td>@item.Description</td>

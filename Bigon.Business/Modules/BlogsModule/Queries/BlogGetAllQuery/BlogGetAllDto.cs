@@ -13,10 +13,8 @@ namespace Bigon.Business.Modules.BlogsModule.Queries.BlogGetAllQuery
         public string Name { get; set; }
         public string? Description { get; set; }
         public string ImagePath { get; set; }
-        public string Slug { get; set; }
         public int BlogCategoryId { get; set; }
         public string BlogCategoryName { get; set; }
-        public DateTime? PublishedAt { get; set; }
-        public int PublishedBy { get; set; }
+   
     }
 }

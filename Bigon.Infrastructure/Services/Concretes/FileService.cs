@@ -21,5 +21,28 @@ namespace Bigon.Infrastructure.Services.Concretes
             await filePath.CopyToAsync(stream);
             return fileName;
         }
+        public async Task<string> ChangeFileAsync(IFormFile filePath, string oldFileName, bool isArchive = false)
+        {
+            if (filePath == null) return oldFileName;
+
+            var folder = Path.Combine(_hostEnvironment.ContentRootPath, "wwwroot", "uploads", "images");
+
+            FileInfo fi = new(Path.Combine(folder, oldFileName));
+
+            if (fi.Exists && isArchive)
+            {
+                var newfileName = $"archive-{oldFileName}";
+
+                fi.MoveTo(Path.Combine(folder, newfileName));
+
+            }
+            else if (fi.Exists && !isArchive)
+            {
+                fi.Delete();
+            }
+
+            return await UploadFileAsync(filePath);
+
+        }
     }
 }

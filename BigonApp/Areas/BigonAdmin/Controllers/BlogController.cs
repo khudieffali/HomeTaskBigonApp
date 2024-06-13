@@ -1,4 +1,9 @@
-﻿using Bigon.Business.Modules.BlogsModule.Queries.BlogGetAllQuery;
+﻿using Azure.Core;
+using Bigon.Business.Modules.BlogCategoriesModule.Queries.BlogCategoryGetAllQuery;
+using Bigon.Business.Modules.BlogsModule.Commands.BlogAddCommands;
+using Bigon.Business.Modules.BlogsModule.Commands.BlogEditCommands;
+using Bigon.Business.Modules.BlogsModule.Queries.BlogGetAllQuery;
+using Bigon.Business.Modules.BlogsModule.Queries.BlogGetByIdQuery;
 using Bigon.Infrastructure.Entities;
 using Bigon.Infrastructure.Services.Abstracts;
 using MediatR;
@@ -11,12 +16,10 @@ namespace BigonApp.Areas.BigonAdmin.Controllers
         [Area(nameof(BigonAdmin))]
     public class BlogController(DbContext context,
             IWebHostEnvironment webHostEnvironment,
-            IFileService fileService,
             IMediator mediator) : Controller
     {
         private readonly DbContext _context = context;
         private readonly IWebHostEnvironment _webHostEnvironment=webHostEnvironment;
-        private readonly IFileService  _fileService= fileService;
         private readonly IMediator _mediator = mediator;
 
         public  async Task<IActionResult> Index(BlogGetAllRequest request)
@@ -25,29 +28,40 @@ namespace BigonApp.Areas.BigonAdmin.Controllers
             return View(blogList);
         }
 
-        public IActionResult Create()
+        public async Task<IActionResult> Create()
         {
-            var BlogCategoryList = _context.Set<BlogCategory>().ToList();
+            var BlogCategoryList =await _mediator.Send(new BlogCategoryGetAllRequest());
             ViewBag.BlogCategories = new SelectList(BlogCategoryList, "Id", "Name");
             return View();
         }
 
         [HttpPost]
-        public async Task<IActionResult> Create(Blog blog, IFormFile ImagePath)
+        public async Task<IActionResult> Create(BlogAddRequest request)
         {
-            var fileName=await _fileService.UploadFileAsync(ImagePath);
-            var newBlog = new Blog
-            {
-                Name = blog.Name,
-                Description = blog.Description,
-                ImagePath = fileName,
-                Slug = blog.Name,
-                BlogCategoryId =blog.BlogCategoryId
-            };
-            await _context.Set<Blog>().AddAsync(newBlog);
-            await _context.SaveChangesAsync();
-            return View();
+            await _mediator.Send(request);
+            return RedirectToAction(nameof(Index));
         }
+        public async Task<IActionResult> Details(BlogGetByIdRequest request)
+        {
+            var response= await _mediator.Send(request);
+            return View(response);
+        }
+
+        public async Task<IActionResult> Edit(BlogGetByIdRequest request)
+        {
+            var BlogCategoryList = await _mediator.Send(new BlogCategoryGetAllRequest());
+            ViewBag.BlogCategories = new SelectList(BlogCategoryList, "Id", "Name");
+            var response = await _mediator.Send(request);
+            return View(response);
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> Edit(BlogEditRequest request)
+        {
+            await _mediator.Send(request);
+            return RedirectToAction(nameof(Index));
+        }
+
 
     }
 }

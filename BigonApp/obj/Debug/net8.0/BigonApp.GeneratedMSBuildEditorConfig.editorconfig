@@ -30,6 +30,14 @@ build_property._RazorSourceGeneratorDebug =
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQmlnb25BZG1pblxWaWV3c1xCbG9nXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[D:/Praktikant/GarageTask/BigonApp/BigonApp/Areas/BigonAdmin/Views/Blog/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQmlnb25BZG1pblxWaWV3c1xCbG9nXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Praktikant/GarageTask/BigonApp/BigonApp/Areas/BigonAdmin/Views/Blog/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQmlnb25BZG1pblxWaWV3c1xCbG9nXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/Praktikant/GarageTask/BigonApp/BigonApp/Areas/BigonAdmin/Views/Blog/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQmlnb25BZG1pblxWaWV3c1xCbG9nXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 

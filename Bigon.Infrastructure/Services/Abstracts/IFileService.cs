@@ -10,5 +10,7 @@ namespace Bigon.Infrastructure.Services.Abstracts
     public interface IFileService
     {
          Task<string> UploadFileAsync(IFormFile filePath);
+        Task<string> ChangeFileAsync(IFormFile filePath,string oldFileName,bool isArchive=false);
+
     }
 }
