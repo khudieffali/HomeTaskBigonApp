@@ -14,7 +14,7 @@ namespace Bigon.Business.Modules.BlogsModule.Commands.BlogEditCommands
         public int Id { get; set; }
         public string Name { get; set; }
         public string? Description { get; set; }
-        public int BlogCategoryId { get; set; }
+        public int CategoryId { get; set; }
         public IFormFile ImagePath { get; set; }
     }
 }

@@ -8,7 +8,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
 
-namespace BigonApp.Migrations
+namespace Bigon.Data.Migrations
 {
     [DbContext(typeof(DataContext))]
     partial class DataContextModelSnapshot : ModelSnapshot
@@ -30,10 +30,10 @@ namespace BigonApp.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
-                    b.Property<int>("BlogCategoryId")
+                    b.Property<int>("CategoryId")
                         .HasColumnType("int");
 
-                    b.Property<int?>("BlogCategoryId1")
+                    b.Property<int?>("CategoryId1")
                         .HasColumnType("int");
 
                     b.Property<DateTime>("CreatedAt")
@@ -79,53 +79,14 @@ namespace BigonApp.Migrations
 
                     b.HasKey("Id");
 
-                    b.HasIndex("BlogCategoryId");
+                    b.HasIndex("CategoryId");
 
-                    b.HasIndex("BlogCategoryId1");
+                    b.HasIndex("CategoryId1");
 
                     b.HasIndex("Slug")
                         .IsUnique();
 
                     b.ToTable("Blogs");
-                });
-
-            modelBuilder.Entity("Bigon.Infrastructure.Entities.BlogCategory", b =>
-                {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
-
-                    b.Property<DateTime>("CreatedAt")
-                        .HasColumnType("datetime");
-
-                    b.Property<int>("CreatedBy")
-                        .HasColumnType("int");
-
-                    b.Property<DateTime?>("DeletedAt")
-                        .HasColumnType("datetime");
-
-                    b.Property<int?>("DeletedBy")
-                        .HasColumnType("int");
-
-                    b.Property<string>("Description")
-                        .HasColumnType("nvarchar(Max)");
-
-                    b.Property<DateTime?>("ModifiedAt")
-                        .HasColumnType("datetime");
-
-                    b.Property<int?>("ModifiedBy")
-                        .HasColumnType("int");
-
-                    b.Property<string>("Name")
-                        .IsRequired()
-                        .HasMaxLength(200)
-                        .HasColumnType("nvarchar");
-
-                    b.HasKey("Id");
-
-                    b.ToTable("BlogCategories");
                 });
 
             modelBuilder.Entity("Bigon.Infrastructure.Entities.BlogToTag", b =>
@@ -206,6 +167,48 @@ namespace BigonApp.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("Brands");
+                });
+
+            modelBuilder.Entity("Bigon.Infrastructure.Entities.Category", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<DateTime>("CreatedAt")
+                        .HasColumnType("datetime");
+
+                    b.Property<int>("CreatedBy")
+                        .HasColumnType("int");
+
+                    b.Property<DateTime?>("DeletedAt")
+                        .HasColumnType("datetime");
+
+                    b.Property<int?>("DeletedBy")
+                        .HasColumnType("int");
+
+                    b.Property<string>("Description")
+                        .HasColumnType("nvarchar(Max)");
+
+                    b.Property<DateTime?>("ModifiedAt")
+                        .HasColumnType("datetime");
+
+                    b.Property<int?>("ModifiedBy")
+                        .HasColumnType("int");
+
+                    b.Property<string>("Name")
+                        .IsRequired()
+                        .HasMaxLength(200)
+                        .HasColumnType("nvarchar");
+
+                    b.Property<int>("ParentId")
+                        .HasColumnType("int");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Categories");
                 });
 
             modelBuilder.Entity("Bigon.Infrastructure.Entities.Color", b =>
@@ -307,17 +310,17 @@ namespace BigonApp.Migrations
 
             modelBuilder.Entity("Bigon.Infrastructure.Entities.Blog", b =>
                 {
-                    b.HasOne("Bigon.Infrastructure.Entities.BlogCategory", null)
+                    b.HasOne("Bigon.Infrastructure.Entities.Category", null)
                         .WithMany()
-                        .HasForeignKey("BlogCategoryId")
+                        .HasForeignKey("CategoryId")
                         .OnDelete(DeleteBehavior.NoAction)
                         .IsRequired();
 
-                    b.HasOne("Bigon.Infrastructure.Entities.BlogCategory", "BlogCategory")
+                    b.HasOne("Bigon.Infrastructure.Entities.Category", "Category")
                         .WithMany("Blogs")
-                        .HasForeignKey("BlogCategoryId1");
+                        .HasForeignKey("CategoryId1");
 
-                    b.Navigation("BlogCategory");
+                    b.Navigation("Category");
                 });
 
             modelBuilder.Entity("Bigon.Infrastructure.Entities.BlogToTag", b =>
@@ -339,7 +342,7 @@ namespace BigonApp.Migrations
                     b.Navigation("Tag");
                 });
 
-            modelBuilder.Entity("Bigon.Infrastructure.Entities.BlogCategory", b =>
+            modelBuilder.Entity("Bigon.Infrastructure.Entities.Category", b =>
                 {
                     b.Navigation("Blogs");
                 });

@@ -5965,6 +5965,54 @@
       "PackagePath": "staticwebassets\\assets\\js\\wow.min.js"
     },
     {
+      "Id": "D:\\Praktikant\\GarageTask\\BigonApp\\BigonApp\\wwwroot\\libs\\jquery-treegrid\\css\\jquery.treegrid.css",
+      "PackagePath": "staticwebassets\\libs\\jquery-treegrid\\css\\jquery.treegrid.css"
+    },
+    {
+      "Id": "D:\\Praktikant\\GarageTask\\BigonApp\\BigonApp\\wwwroot\\libs\\jquery-treegrid\\css\\jquery.treegrid.min.css",
+      "PackagePath": "staticwebassets\\libs\\jquery-treegrid\\css\\jquery.treegrid.min.css"
+    },
+    {
+      "Id": "D:\\Praktikant\\GarageTask\\BigonApp\\BigonApp\\wwwroot\\libs\\jquery-treegrid\\img\\collapse.png",
+      "PackagePath": "staticwebassets\\libs\\jquery-treegrid\\img\\collapse.png"
+    },
+    {
+      "Id": "D:\\Praktikant\\GarageTask\\BigonApp\\BigonApp\\wwwroot\\libs\\jquery-treegrid\\img\\expand.png",
+      "PackagePath": "staticwebassets\\libs\\jquery-treegrid\\img\\expand.png"
+    },
+    {
+      "Id": "D:\\Praktikant\\GarageTask\\BigonApp\\BigonApp\\wwwroot\\libs\\jquery-treegrid\\img\\file.png",
+      "PackagePath": "staticwebassets\\libs\\jquery-treegrid\\img\\file.png"
+    },
+    {
+      "Id": "D:\\Praktikant\\GarageTask\\BigonApp\\BigonApp\\wwwroot\\libs\\jquery-treegrid\\img\\folder.png",
+      "PackagePath": "staticwebassets\\libs\\jquery-treegrid\\img\\folder.png"
+    },
+    {
+      "Id": "D:\\Praktikant\\GarageTask\\BigonApp\\BigonApp\\wwwroot\\libs\\jquery-treegrid\\js\\jquery.treegrid.bootstrap2.js",
+      "PackagePath": "staticwebassets\\libs\\jquery-treegrid\\js\\jquery.treegrid.bootstrap2.js"
+    },
+    {
+      "Id": "D:\\Praktikant\\GarageTask\\BigonApp\\BigonApp\\wwwroot\\libs\\jquery-treegrid\\js\\jquery.treegrid.bootstrap2.min.js",
+      "PackagePath": "staticwebassets\\libs\\jquery-treegrid\\js\\jquery.treegrid.bootstrap2.min.js"
+    },
+    {
+      "Id": "D:\\Praktikant\\GarageTask\\BigonApp\\BigonApp\\wwwroot\\libs\\jquery-treegrid\\js\\jquery.treegrid.bootstrap3.js",
+      "PackagePath": "staticwebassets\\libs\\jquery-treegrid\\js\\jquery.treegrid.bootstrap3.js"
+    },
+    {
+      "Id": "D:\\Praktikant\\GarageTask\\BigonApp\\BigonApp\\wwwroot\\libs\\jquery-treegrid\\js\\jquery.treegrid.bootstrap3.min.js",
+      "PackagePath": "staticwebassets\\libs\\jquery-treegrid\\js\\jquery.treegrid.bootstrap3.min.js"
+    },
+    {
+      "Id": "D:\\Praktikant\\GarageTask\\BigonApp\\BigonApp\\wwwroot\\libs\\jquery-treegrid\\js\\jquery.treegrid.js",
+      "PackagePath": "staticwebassets\\libs\\jquery-treegrid\\js\\jquery.treegrid.js"
+    },
+    {
+      "Id": "D:\\Praktikant\\GarageTask\\BigonApp\\BigonApp\\wwwroot\\libs\\jquery-treegrid\\js\\jquery.treegrid.min.js",
+      "PackagePath": "staticwebassets\\libs\\jquery-treegrid\\js\\jquery.treegrid.min.js"
+    },
+    {
       "Id": "D:\\Praktikant\\GarageTask\\BigonApp\\BigonApp\\wwwroot\\libs\\sweetalert2\\sweetalert2.all.js",
       "PackagePath": "staticwebassets\\libs\\sweetalert2\\sweetalert2.all.js"
     },
@@ -6013,16 +6061,36 @@
       "PackagePath": "staticwebassets\\libs\\toastr.js\\toastradditional.js"
     },
     {
+      "Id": "D:\\Praktikant\\GarageTask\\BigonApp\\BigonApp\\wwwroot\\uploads\\images\\1c993aae-124d-4626-a1ec-da19fac8dc2f.png",
+      "PackagePath": "staticwebassets\\uploads\\images\\1c993aae-124d-4626-a1ec-da19fac8dc2f.png"
+    },
+    {
+      "Id": "D:\\Praktikant\\GarageTask\\BigonApp\\BigonApp\\wwwroot\\uploads\\images\\2b68f40f-7215-4b3b-95f1-b861bee184c3.jpg",
+      "PackagePath": "staticwebassets\\uploads\\images\\2b68f40f-7215-4b3b-95f1-b861bee184c3.jpg"
+    },
+    {
       "Id": "D:\\Praktikant\\GarageTask\\BigonApp\\BigonApp\\wwwroot\\uploads\\images\\443bb380-3d0f-4dcf-9fb3-498ebf29213c.jpeg",
       "PackagePath": "staticwebassets\\uploads\\images\\443bb380-3d0f-4dcf-9fb3-498ebf29213c.jpeg"
     },
     {
-      "Id": "D:\\Praktikant\\GarageTask\\BigonApp\\BigonApp\\wwwroot\\uploads\\images\\70f6c19e-479c-4186-9784-951a18f056ff.png",
-      "PackagePath": "staticwebassets\\uploads\\images\\70f6c19e-479c-4186-9784-951a18f056ff.png"
+      "Id": "D:\\Praktikant\\GarageTask\\BigonApp\\BigonApp\\wwwroot\\uploads\\images\\499be5a9-ca2e-4898-acc0-f0a2520384ff.png",
+      "PackagePath": "staticwebassets\\uploads\\images\\499be5a9-ca2e-4898-acc0-f0a2520384ff.png"
     },
     {
-      "Id": "D:\\Praktikant\\GarageTask\\BigonApp\\BigonApp\\wwwroot\\uploads\\images\\7eced72d-ec51-4fcd-bfe4-db6b527f7b9a.png",
-      "PackagePath": "staticwebassets\\uploads\\images\\7eced72d-ec51-4fcd-bfe4-db6b527f7b9a.png"
+      "Id": "D:\\Praktikant\\GarageTask\\BigonApp\\BigonApp\\wwwroot\\uploads\\images\\6162eba8-9cb1-4a98-bcd8-cc9c84a76deb.jpeg",
+      "PackagePath": "staticwebassets\\uploads\\images\\6162eba8-9cb1-4a98-bcd8-cc9c84a76deb.jpeg"
+    },
+    {
+      "Id": "D:\\Praktikant\\GarageTask\\BigonApp\\BigonApp\\wwwroot\\uploads\\images\\6e7dcb1f-6a91-4a1e-9e0e-db2698611bf8.png",
+      "PackagePath": "staticwebassets\\uploads\\images\\6e7dcb1f-6a91-4a1e-9e0e-db2698611bf8.png"
+    },
+    {
+      "Id": "D:\\Praktikant\\GarageTask\\BigonApp\\BigonApp\\wwwroot\\uploads\\images\\archive-70f6c19e-479c-4186-9784-951a18f056ff.png",
+      "PackagePath": "staticwebassets\\uploads\\images\\archive-70f6c19e-479c-4186-9784-951a18f056ff.png"
+    },
+    {
+      "Id": "D:\\Praktikant\\GarageTask\\BigonApp\\BigonApp\\wwwroot\\uploads\\images\\archive-7eced72d-ec51-4fcd-bfe4-db6b527f7b9a.png",
+      "PackagePath": "staticwebassets\\uploads\\images\\archive-7eced72d-ec51-4fcd-bfe4-db6b527f7b9a.png"
     },
     {
       "Id": "D:\\Praktikant\\GarageTask\\BigonApp\\BigonApp\\wwwroot\\uploads\\images\\b72c8dc5-0fac-40ce-8518-9b6d95d21917.png",
@@ -6031,6 +6099,10 @@
     {
       "Id": "D:\\Praktikant\\GarageTask\\BigonApp\\BigonApp\\wwwroot\\uploads\\images\\bf22ce18-1f2a-477d-8fd6-4660c6a303ea.jpeg",
       "PackagePath": "staticwebassets\\uploads\\images\\bf22ce18-1f2a-477d-8fd6-4660c6a303ea.jpeg"
+    },
+    {
+      "Id": "D:\\Praktikant\\GarageTask\\BigonApp\\BigonApp\\wwwroot\\uploads\\images\\e405b365-5106-4a04-ab68-5704610f8ae1.png",
+      "PackagePath": "staticwebassets\\uploads\\images\\e405b365-5106-4a04-ab68-5704610f8ae1.png"
     },
     {
       "Id": "D:\\Praktikant\\GarageTask\\BigonApp\\BigonApp\\wwwroot\\uploads\\images\\edb3d8af-eb55-4d1e-82bc-a4f827a0cbdb.png",

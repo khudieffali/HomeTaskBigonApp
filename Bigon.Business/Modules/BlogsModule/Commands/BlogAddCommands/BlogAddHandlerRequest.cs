@@ -28,7 +28,7 @@ namespace Bigon.Business.Modules.BlogsModule.Commands.BlogAddCommands
                 Description = request.Description,
                 ImagePath = fileName,
                 Slug = request.Name.ToSlug(),
-                BlogCategoryId = request.BlogCategoryId
+                CategoryId = request.CategoryId
             };
             await _blogRepository.Add(newBlog);
             return newBlog;

@@ -20,7 +20,7 @@ namespace Bigon.Business.Modules.BlogsModule.Commands.BlogEditCommands
         public async Task<Blog> Handle(BlogEditRequest request, CancellationToken cancellationToken)
         {
            var editBlog= await _blogRepository.GetById(x=>x.Id==request.Id && x.DeletedBy==null);
-            editBlog.BlogCategoryId = request.BlogCategoryId;
+            editBlog.CategoryId = request.CategoryId;
             editBlog.Slug = request.Name.ToSlug();
             editBlog.Name = request.Name;
             editBlog.Description = request.Description;

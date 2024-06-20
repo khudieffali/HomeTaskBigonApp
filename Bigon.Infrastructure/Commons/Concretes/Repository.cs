@@ -21,14 +21,18 @@ namespace Bigon.Infrastructure.Commons.Concretes
 
         private readonly DbSet<T> _table;
        
-        public async Task<IEnumerable<T>> GetAll(Expression<Func<T, bool>> predicate = null)
+        public async Task<IQueryable<T>> GetAll(Expression<Func<T, bool>> predicate = null)
         {
-            if (predicate == null)
+            var query= _table.AsQueryable();
+            if (true)
             {
-                return await _table.ToListAsync();
+                query = query.AsNoTracking();
             }
-            var list =await  _table.Where(predicate).ToListAsync();
-            return list;
+            if(predicate != null)
+            {
+                query=query.Where(predicate);
+            }
+            return query;
         }
 
         public async Task<T> GetById(Expression<Func<T, bool>> predicate = null)

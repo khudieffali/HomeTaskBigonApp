@@ -9,7 +9,7 @@ namespace Bigon.Infrastructure.Commons.Abstracts
 {
     public interface IRepository<T> where T : class
     {
-        Task<IEnumerable<T>> GetAll(Expression<Func<T, bool>> predicate = null);
+        Task<IQueryable<T>> GetAll(Expression<Func<T, bool>> predicate = null);
 
         Task<T> GetById(Expression<Func<T, bool>> predicate = null);
 

@@ -2,6 +2,7 @@
 using Bigon.Business.Modules.BlogCategoriesModule.Queries.BlogCategoryGetAllQuery;
 using Bigon.Business.Modules.BlogsModule.Commands.BlogAddCommands;
 using Bigon.Business.Modules.BlogsModule.Commands.BlogEditCommands;
+using Bigon.Business.Modules.BlogsModule.Commands.BlogRemoveCommands;
 using Bigon.Business.Modules.BlogsModule.Queries.BlogGetAllQuery;
 using Bigon.Business.Modules.BlogsModule.Queries.BlogGetByIdQuery;
 using Bigon.Infrastructure.Entities;
@@ -30,10 +31,10 @@ namespace BigonApp.Areas.BigonAdmin.Controllers
 
         public async Task<IActionResult> Create()
         {
-            var BlogCategoryList =await _mediator.Send(new BlogCategoryGetAllRequest());
+            var BlogCategoryList =await _mediator.Send(new CategoryGetAllRequest());
             ViewBag.BlogCategories = new SelectList(BlogCategoryList, "Id", "Name");
             return View();
-        }
+        }   
 
         [HttpPost]
         public async Task<IActionResult> Create(BlogAddRequest request)
@@ -41,15 +42,11 @@ namespace BigonApp.Areas.BigonAdmin.Controllers
             await _mediator.Send(request);
             return RedirectToAction(nameof(Index));
         }
-        public async Task<IActionResult> Details(BlogGetByIdRequest request)
-        {
-            var response= await _mediator.Send(request);
-            return View(response);
-        }
+       
 
         public async Task<IActionResult> Edit(BlogGetByIdRequest request)
         {
-            var BlogCategoryList = await _mediator.Send(new BlogCategoryGetAllRequest());
+            var BlogCategoryList = await _mediator.Send(new CategoryGetAllRequest());
             ViewBag.BlogCategories = new SelectList(BlogCategoryList, "Id", "Name");
             var response = await _mediator.Send(request);
             return View(response);
@@ -60,6 +57,18 @@ namespace BigonApp.Areas.BigonAdmin.Controllers
         {
             await _mediator.Send(request);
             return RedirectToAction(nameof(Index));
+        }
+        public async Task<IActionResult> Details(BlogGetByIdRequest request)
+        {
+            var response = await _mediator.Send(request);
+            return View(response);
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> Remove(BlogRemoveRequest request)
+        {
+            var response = await _mediator.Send(request);
+            return PartialView("_Body",response);
         }
 
 

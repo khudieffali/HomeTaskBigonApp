@@ -1,0 +1,39 @@
+﻿@using Bigon.Business.Modules.BlogsModule.Queries.BlogGetAllQuery
+@using Bigon.Infrastructure.Extension
+ @model IEnumerable<Category>
+
+@foreach (var item in Model.Where(m => m.ParentId == null))
+{
+    <tr class="treegrid-@item.Id">
+        <td>@item.Name</td>
+        <td class="operation">
+            <a class="btn btn-info" asp-action="details" asp-route-id="@item.Id">
+                <i class="fa fa-eye"></i>
+            </a>
+            <a class="btn btn-warning" asp-action="edit" asp-route-id="@item.Id">
+                <i class="fa fa-pencil"></i>
+            </a>
+            <a class="btn btn-danger" onclick="removeCategory(@item.Id,'@item.Name')">
+                <i class="fa fa-trash"></i>
+            </a>
+        </td>
+    </tr>
+
+    foreach (var child in Model.GetHeirArchy(item))
+    {
+        <tr class="treegrid-@child.Id treegrid-parent-@child.ParentId">
+            <td>@child.Name</td>
+            <td class="operation">
+                <a class="btn btn-info" asp-action="details" asp-route-id="@child.Id">
+                    <i class="fa fa-eye"></i>
+                </a>
+                <a class="btn btn-warning" asp-action="edit" asp-route-id="@child.Id">
+                    <i class="fa fa-pencil"></i>
+                </a>
+                <a class="btn btn-danger" onclick="removeCategory(@child.Id,'@child.Name')">
+                    <i class="fa fa-trash"></i>
+                </a>
+            </td>
+        </tr>
+    }
+}          

@@ -40,7 +40,7 @@
                 if (result.isConfirmed) {
                     $.ajax({
                         method: "POST",
-                        url: "@Url.Action("remove", "color")",
+                        url: "@Url.Action("remove", "blog")",
                         data: { id, name },
                         success: (result) => {
                             if (!result.error) {

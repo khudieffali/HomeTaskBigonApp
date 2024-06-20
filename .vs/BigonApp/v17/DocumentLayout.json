@@ -3,84 +3,48 @@
   "WorkspaceRootPath": "D:\\Praktikant\\GarageTask\\BigonApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{985EFEA6-20FD-4A59-9542-C5AFFFB87228}|Bigon.Business\\Bigon.Business.csproj|d:\\praktikant\\garagetask\\bigonapp\\bigon.business\\modules\\blogsmodule\\commands\\blogeditcommands\\blogedithandlerrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{985EFEA6-20FD-4A59-9542-C5AFFFB87228}|Bigon.Business\\Bigon.Business.csproj|solutionrelative:bigon.business\\modules\\blogsmodule\\commands\\blogeditcommands\\blogedithandlerrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{80119B4D-162D-4413-9E19-2A4A42AD80F6}|BigonApp\\BigonApp.csproj|d:\\praktikant\\garagetask\\bigonapp\\bigonapp\\areas\\bigonadmin\\views\\category\\_body.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{80119B4D-162D-4413-9E19-2A4A42AD80F6}|BigonApp\\BigonApp.csproj|solutionrelative:bigonapp\\areas\\bigonadmin\\views\\category\\_body.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{98F3628D-8A99-43DB-B7EA-064A47FD0628}|Bigon.Infrastructure\\Bigon.Infrastructure.csproj|D:\\Praktikant\\GarageTask\\BigonApp\\bigon.infrastructure\\services\\concretes\\fileservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{98F3628D-8A99-43DB-B7EA-064A47FD0628}|Bigon.Infrastructure\\Bigon.Infrastructure.csproj|solutionrelative:bigon.infrastructure\\services\\concretes\\fileservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{80119B4D-162D-4413-9E19-2A4A42AD80F6}|BigonApp\\BigonApp.csproj|d:\\praktikant\\garagetask\\bigonapp\\bigonapp\\areas\\bigonadmin\\views\\category\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{80119B4D-162D-4413-9E19-2A4A42AD80F6}|BigonApp\\BigonApp.csproj|solutionrelative:bigonapp\\areas\\bigonadmin\\views\\category\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{80119B4D-162D-4413-9E19-2A4A42AD80F6}|BigonApp\\BigonApp.csproj|D:\\Praktikant\\GarageTask\\BigonApp\\bigonapp\\areas\\bigonadmin\\views\\blog\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{80119B4D-162D-4413-9E19-2A4A42AD80F6}|BigonApp\\BigonApp.csproj|solutionrelative:bigonapp\\areas\\bigonadmin\\views\\blog\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{80119B4D-162D-4413-9E19-2A4A42AD80F6}|BigonApp\\BigonApp.csproj|d:\\praktikant\\garagetask\\bigonapp\\bigonapp\\areas\\bigonadmin\\views\\blog\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{80119B4D-162D-4413-9E19-2A4A42AD80F6}|BigonApp\\BigonApp.csproj|solutionrelative:bigonapp\\areas\\bigonadmin\\views\\blog\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{985EFEA6-20FD-4A59-9542-C5AFFFB87228}|Bigon.Business\\Bigon.Business.csproj|D:\\Praktikant\\GarageTask\\BigonApp\\bigon.business\\modules\\blogsmodule\\commands\\blogeditcommands\\blogeditrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{985EFEA6-20FD-4A59-9542-C5AFFFB87228}|Bigon.Business\\Bigon.Business.csproj|solutionrelative:bigon.business\\modules\\blogsmodule\\commands\\blogeditcommands\\blogeditrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{80119B4D-162D-4413-9E19-2A4A42AD80F6}|BigonApp\\BigonApp.csproj|D:\\Praktikant\\GarageTask\\BigonApp\\bigonapp\\areas\\bigonadmin\\views\\blog\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{80119B4D-162D-4413-9E19-2A4A42AD80F6}|BigonApp\\BigonApp.csproj|d:\\praktikant\\garagetask\\bigonapp\\bigonapp\\areas\\bigonadmin\\views\\blog\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{80119B4D-162D-4413-9E19-2A4A42AD80F6}|BigonApp\\BigonApp.csproj|solutionrelative:bigonapp\\areas\\bigonadmin\\views\\blog\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{985EFEA6-20FD-4A59-9542-C5AFFFB87228}|Bigon.Business\\Bigon.Business.csproj|D:\\Praktikant\\GarageTask\\BigonApp\\bigon.business\\modules\\blogsmodule\\queries\\bloggetbyidquery\\bloggetbyidhandlerrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{985EFEA6-20FD-4A59-9542-C5AFFFB87228}|Bigon.Business\\Bigon.Business.csproj|solutionrelative:bigon.business\\modules\\blogsmodule\\queries\\bloggetbyidquery\\bloggetbyidhandlerrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{80119B4D-162D-4413-9E19-2A4A42AD80F6}|BigonApp\\BigonApp.csproj|D:\\Praktikant\\GarageTask\\BigonApp\\bigonapp\\areas\\bigonadmin\\controllers\\blogcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{80119B4D-162D-4413-9E19-2A4A42AD80F6}|BigonApp\\BigonApp.csproj|solutionrelative:bigonapp\\areas\\bigonadmin\\controllers\\blogcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{98F3628D-8A99-43DB-B7EA-064A47FD0628}|Bigon.Infrastructure\\Bigon.Infrastructure.csproj|D:\\Praktikant\\GarageTask\\BigonApp\\bigon.infrastructure\\services\\abstracts\\ifileservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{98F3628D-8A99-43DB-B7EA-064A47FD0628}|Bigon.Infrastructure\\Bigon.Infrastructure.csproj|solutionrelative:bigon.infrastructure\\services\\abstracts\\ifileservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{985EFEA6-20FD-4A59-9542-C5AFFFB87228}|Bigon.Business\\Bigon.Business.csproj|D:\\Praktikant\\GarageTask\\BigonApp\\bigon.business\\modules\\blogsmodule\\commands\\blogaddcommands\\blogaddhandlerrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{985EFEA6-20FD-4A59-9542-C5AFFFB87228}|Bigon.Business\\Bigon.Business.csproj|solutionrelative:bigon.business\\modules\\blogsmodule\\commands\\blogaddcommands\\blogaddhandlerrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{985EFEA6-20FD-4A59-9542-C5AFFFB87228}|Bigon.Business\\Bigon.Business.csproj|D:\\Praktikant\\GarageTask\\BigonApp\\bigon.business\\modules\\blogsmodule\\commands\\blogaddcommands\\blogaddrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{985EFEA6-20FD-4A59-9542-C5AFFFB87228}|Bigon.Business\\Bigon.Business.csproj|solutionrelative:bigon.business\\modules\\blogsmodule\\commands\\blogaddcommands\\blogaddrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{80119B4D-162D-4413-9E19-2A4A42AD80F6}|BigonApp\\BigonApp.csproj|D:\\Praktikant\\GarageTask\\BigonApp\\bigonapp\\areas\\bigonadmin\\views\\shared\\_layoutadmin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{80119B4D-162D-4413-9E19-2A4A42AD80F6}|BigonApp\\BigonApp.csproj|solutionrelative:bigonapp\\areas\\bigonadmin\\views\\shared\\_layoutadmin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{80119B4D-162D-4413-9E19-2A4A42AD80F6}|BigonApp\\BigonApp.csproj|D:\\Praktikant\\GarageTask\\BigonApp\\bigonapp\\wwwroot\\admin\\assets\\css\\additional.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{80119B4D-162D-4413-9E19-2A4A42AD80F6}|BigonApp\\BigonApp.csproj|solutionrelative:bigonapp\\wwwroot\\admin\\assets\\css\\additional.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{80119B4D-162D-4413-9E19-2A4A42AD80F6}|BigonApp\\BigonApp.csproj|D:\\Praktikant\\GarageTask\\BigonApp\\bigonapp\\wwwroot\\admin\\assets\\js\\additional.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{80119B4D-162D-4413-9E19-2A4A42AD80F6}|BigonApp\\BigonApp.csproj|solutionrelative:bigonapp\\wwwroot\\admin\\assets\\js\\additional.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{98F3628D-8A99-43DB-B7EA-064A47FD0628}|Bigon.Infrastructure\\Bigon.Infrastructure.csproj|D:\\Praktikant\\GarageTask\\BigonApp\\bigon.infrastructure\\extension\\regularextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{98F3628D-8A99-43DB-B7EA-064A47FD0628}|Bigon.Infrastructure\\Bigon.Infrastructure.csproj|solutionrelative:bigon.infrastructure\\extension\\regularextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{98F3628D-8A99-43DB-B7EA-064A47FD0628}|Bigon.Infrastructure\\Bigon.Infrastructure.csproj|D:\\Praktikant\\GarageTask\\BigonApp\\bigon.infrastructure\\bigon.infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{98F3628D-8A99-43DB-B7EA-064A47FD0628}|Bigon.Infrastructure\\Bigon.Infrastructure.csproj|solutionrelative:bigon.infrastructure\\bigon.infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{80119B4D-162D-4413-9E19-2A4A42AD80F6}|BigonApp\\BigonApp.csproj|D:\\Praktikant\\GarageTask\\BigonApp\\bigonapp\\areas\\bigonadmin\\views\\blog\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{80119B4D-162D-4413-9E19-2A4A42AD80F6}|BigonApp\\BigonApp.csproj|solutionrelative:bigonapp\\areas\\bigonadmin\\views\\blog\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{80119B4D-162D-4413-9E19-2A4A42AD80F6}|BigonApp\\BigonApp.csproj|D:\\Praktikant\\GarageTask\\BigonApp\\bigonapp\\areas\\bigonadmin\\views\\blog\\_body.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{80119B4D-162D-4413-9E19-2A4A42AD80F6}|BigonApp\\BigonApp.csproj|d:\\praktikant\\garagetask\\bigonapp\\bigonapp\\areas\\bigonadmin\\views\\blog\\_body.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{80119B4D-162D-4413-9E19-2A4A42AD80F6}|BigonApp\\BigonApp.csproj|solutionrelative:bigonapp\\areas\\bigonadmin\\views\\blog\\_body.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{985EFEA6-20FD-4A59-9542-C5AFFFB87228}|Bigon.Business\\Bigon.Business.csproj|D:\\Praktikant\\GarageTask\\BigonApp\\bigon.business\\modules\\blogsmodule\\queries\\bloggetbyidquery\\bloggetbyiddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{985EFEA6-20FD-4A59-9542-C5AFFFB87228}|Bigon.Business\\Bigon.Business.csproj|solutionrelative:bigon.business\\modules\\blogsmodule\\queries\\bloggetbyidquery\\bloggetbyiddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{80119B4D-162D-4413-9E19-2A4A42AD80F6}|BigonApp\\BigonApp.csproj|d:\\praktikant\\garagetask\\bigonapp\\bigonapp\\areas\\bigonadmin\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80119B4D-162D-4413-9E19-2A4A42AD80F6}|BigonApp\\BigonApp.csproj|solutionrelative:bigonapp\\areas\\bigonadmin\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{985EFEA6-20FD-4A59-9542-C5AFFFB87228}|Bigon.Business\\Bigon.Business.csproj|D:\\Praktikant\\GarageTask\\BigonApp\\bigon.business\\modules\\blogsmodule\\queries\\bloggetallquery\\bloggetallhandlerrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{985EFEA6-20FD-4A59-9542-C5AFFFB87228}|Bigon.Business\\Bigon.Business.csproj|solutionrelative:bigon.business\\modules\\blogsmodule\\queries\\bloggetallquery\\bloggetallhandlerrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{985EFEA6-20FD-4A59-9542-C5AFFFB87228}|Bigon.Business\\Bigon.Business.csproj|d:\\praktikant\\garagetask\\bigonapp\\bigon.business\\modules\\colorsmodule\\commands\\colorsdeletecommands\\colorsdeletehandlerrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{985EFEA6-20FD-4A59-9542-C5AFFFB87228}|Bigon.Business\\Bigon.Business.csproj|solutionrelative:bigon.business\\modules\\colorsmodule\\commands\\colorsdeletecommands\\colorsdeletehandlerrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{985EFEA6-20FD-4A59-9542-C5AFFFB87228}|Bigon.Business\\Bigon.Business.csproj|D:\\Praktikant\\GarageTask\\BigonApp\\bigon.business\\modules\\blogsmodule\\queries\\bloggetallquery\\bloggetalldto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{985EFEA6-20FD-4A59-9542-C5AFFFB87228}|Bigon.Business\\Bigon.Business.csproj|solutionrelative:bigon.business\\modules\\blogsmodule\\queries\\bloggetallquery\\bloggetalldto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{985EFEA6-20FD-4A59-9542-C5AFFFB87228}|Bigon.Business\\Bigon.Business.csproj|d:\\praktikant\\garagetask\\bigonapp\\bigon.business\\modules\\categoriesmodule\\commands\\categoryremovecommands\\categoryremovehandlerrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{985EFEA6-20FD-4A59-9542-C5AFFFB87228}|Bigon.Business\\Bigon.Business.csproj|solutionrelative:bigon.business\\modules\\categoriesmodule\\commands\\categoryremovecommands\\categoryremovehandlerrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{985EFEA6-20FD-4A59-9542-C5AFFFB87228}|Bigon.Business\\Bigon.Business.csproj|d:\\praktikant\\garagetask\\bigonapp\\bigon.business\\modules\\blogsmodule\\commands\\blogremovecommands\\blogremovehandlerrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{985EFEA6-20FD-4A59-9542-C5AFFFB87228}|Bigon.Business\\Bigon.Business.csproj|solutionrelative:bigon.business\\modules\\blogsmodule\\commands\\blogremovecommands\\blogremovehandlerrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{985EFEA6-20FD-4A59-9542-C5AFFFB87228}|Bigon.Business\\Bigon.Business.csproj|d:\\praktikant\\garagetask\\bigonapp\\bigon.business\\modules\\categoriesmodule\\queries\\categorygetallquery\\categorygetallhandlerrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{985EFEA6-20FD-4A59-9542-C5AFFFB87228}|Bigon.Business\\Bigon.Business.csproj|solutionrelative:bigon.business\\modules\\categoriesmodule\\queries\\categorygetallquery\\categorygetallhandlerrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{985EFEA6-20FD-4A59-9542-C5AFFFB87228}|Bigon.Business\\Bigon.Business.csproj|d:\\praktikant\\garagetask\\bigonapp\\bigon.business\\modules\\categoriesmodule\\commands\\categoryremovecommands\\categoryremoverequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{985EFEA6-20FD-4A59-9542-C5AFFFB87228}|Bigon.Business\\Bigon.Business.csproj|solutionrelative:bigon.business\\modules\\categoriesmodule\\commands\\categoryremovecommands\\categoryremoverequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -90,248 +54,150 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 10,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "FileService.cs",
-              "DocumentMoniker": "D:\\Praktikant\\GarageTask\\BigonApp\\Bigon.Infrastructure\\Services\\Concretes\\FileService.cs",
-              "RelativeDocumentMoniker": "Bigon.Infrastructure\\Services\\Concretes\\FileService.cs",
-              "ToolTip": "D:\\Praktikant\\GarageTask\\BigonApp\\Bigon.Infrastructure\\Services\\Concretes\\FileService.cs",
-              "RelativeToolTip": "Bigon.Infrastructure\\Services\\Concretes\\FileService.cs",
-              "ViewState": "AQIAABMAAAAAAAAAAAAAACsAAAAxAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-13T19:55:47.337Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "IFileService.cs",
-              "DocumentMoniker": "D:\\Praktikant\\GarageTask\\BigonApp\\Bigon.Infrastructure\\Services\\Abstracts\\IFileService.cs",
-              "RelativeDocumentMoniker": "Bigon.Infrastructure\\Services\\Abstracts\\IFileService.cs",
-              "ToolTip": "D:\\Praktikant\\GarageTask\\BigonApp\\Bigon.Infrastructure\\Services\\Abstracts\\IFileService.cs",
-              "RelativeToolTip": "Bigon.Infrastructure\\Services\\Abstracts\\IFileService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAwAAAAkAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-13T19:54:17.069Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "BlogEditHandlerRequest.cs",
-              "DocumentMoniker": "D:\\Praktikant\\GarageTask\\BigonApp\\Bigon.Business\\Modules\\BlogsModule\\Commands\\BlogEditCommands\\BlogEditHandlerRequest.cs",
-              "RelativeDocumentMoniker": "Bigon.Business\\Modules\\BlogsModule\\Commands\\BlogEditCommands\\BlogEditHandlerRequest.cs",
-              "ToolTip": "D:\\Praktikant\\GarageTask\\BigonApp\\Bigon.Business\\Modules\\BlogsModule\\Commands\\BlogEditCommands\\BlogEditHandlerRequest.cs",
-              "RelativeToolTip": "Bigon.Business\\Modules\\BlogsModule\\Commands\\BlogEditCommands\\BlogEditHandlerRequest.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAABQAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-13T19:51:08.067Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "BlogEditRequest.cs",
-              "DocumentMoniker": "D:\\Praktikant\\GarageTask\\BigonApp\\Bigon.Business\\Modules\\BlogsModule\\Commands\\BlogEditCommands\\BlogEditRequest.cs",
-              "RelativeDocumentMoniker": "Bigon.Business\\Modules\\BlogsModule\\Commands\\BlogEditCommands\\BlogEditRequest.cs",
-              "ToolTip": "D:\\Praktikant\\GarageTask\\BigonApp\\Bigon.Business\\Modules\\BlogsModule\\Commands\\BlogEditCommands\\BlogEditRequest.cs",
-              "RelativeToolTip": "Bigon.Business\\Modules\\BlogsModule\\Commands\\BlogEditCommands\\BlogEditRequest.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAuwBEAAAAtAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-13T19:49:56.164Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "additional.js",
-              "DocumentMoniker": "D:\\Praktikant\\GarageTask\\BigonApp\\BigonApp\\wwwroot\\admin\\assets\\js\\additional.js",
-              "RelativeDocumentMoniker": "BigonApp\\wwwroot\\admin\\assets\\js\\additional.js",
-              "ToolTip": "D:\\Praktikant\\GarageTask\\BigonApp\\BigonApp\\wwwroot\\admin\\assets\\js\\additional.js",
-              "RelativeToolTip": "BigonApp\\wwwroot\\admin\\assets\\js\\additional.js",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAwAAAAqAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2024-06-13T19:41:33.766Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Edit.cshtml",
-              "DocumentMoniker": "D:\\Praktikant\\GarageTask\\BigonApp\\BigonApp\\Areas\\BigonAdmin\\Views\\Blog\\Edit.cshtml",
-              "RelativeDocumentMoniker": "BigonApp\\Areas\\BigonAdmin\\Views\\Blog\\Edit.cshtml",
-              "ToolTip": "D:\\Praktikant\\GarageTask\\BigonApp\\BigonApp\\Areas\\BigonAdmin\\Views\\Blog\\Edit.cshtml",
-              "RelativeToolTip": "BigonApp\\Areas\\BigonAdmin\\Views\\Blog\\Edit.cshtml",
-              "ViewState": "AQIAABsAAAAAAAAAAAAAACwAAAAmAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-13T19:36:58.125Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
               "Title": "Create.cshtml",
               "DocumentMoniker": "D:\\Praktikant\\GarageTask\\BigonApp\\BigonApp\\Areas\\BigonAdmin\\Views\\Blog\\Create.cshtml",
               "RelativeDocumentMoniker": "BigonApp\\Areas\\BigonAdmin\\Views\\Blog\\Create.cshtml",
               "ToolTip": "D:\\Praktikant\\GarageTask\\BigonApp\\BigonApp\\Areas\\BigonAdmin\\Views\\Blog\\Create.cshtml",
               "RelativeToolTip": "BigonApp\\Areas\\BigonAdmin\\Views\\Blog\\Create.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAxAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-13T19:33:04.474Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "RegularExtension.cs",
-              "DocumentMoniker": "D:\\Praktikant\\GarageTask\\BigonApp\\Bigon.Infrastructure\\Extension\\RegularExtension.cs",
-              "RelativeDocumentMoniker": "Bigon.Infrastructure\\Extension\\RegularExtension.cs",
-              "ToolTip": "D:\\Praktikant\\GarageTask\\BigonApp\\Bigon.Infrastructure\\Extension\\RegularExtension.cs",
-              "RelativeToolTip": "Bigon.Infrastructure\\Extension\\RegularExtension.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAABwAAAAXAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-13T19:14:15.31Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "Bigon.Infrastructure",
-              "DocumentMoniker": "D:\\Praktikant\\GarageTask\\BigonApp\\Bigon.Infrastructure\\Bigon.Infrastructure.csproj",
-              "RelativeDocumentMoniker": "Bigon.Infrastructure\\Bigon.Infrastructure.csproj",
-              "ToolTip": "D:\\Praktikant\\GarageTask\\BigonApp\\Bigon.Infrastructure\\Bigon.Infrastructure.csproj",
-              "RelativeToolTip": "Bigon.Infrastructure\\Bigon.Infrastructure.csproj",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-06-13T19:12:54.844Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "Details.cshtml",
-              "DocumentMoniker": "D:\\Praktikant\\GarageTask\\BigonApp\\BigonApp\\Areas\\BigonAdmin\\Views\\Blog\\Details.cshtml",
-              "RelativeDocumentMoniker": "BigonApp\\Areas\\BigonAdmin\\Views\\Blog\\Details.cshtml",
-              "ToolTip": "D:\\Praktikant\\GarageTask\\BigonApp\\BigonApp\\Areas\\BigonAdmin\\Views\\Blog\\Details.cshtml",
-              "RelativeToolTip": "BigonApp\\Areas\\BigonAdmin\\Views\\Blog\\Details.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-13T19:09:56.649Z"
+              "WhenOpened": "2024-06-20T20:33:24.387Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "_LayoutAdmin.cshtml",
-              "DocumentMoniker": "D:\\Praktikant\\GarageTask\\BigonApp\\BigonApp\\Areas\\BigonAdmin\\Views\\Shared\\_LayoutAdmin.cshtml",
-              "RelativeDocumentMoniker": "BigonApp\\Areas\\BigonAdmin\\Views\\Shared\\_LayoutAdmin.cshtml",
-              "ToolTip": "D:\\Praktikant\\GarageTask\\BigonApp\\BigonApp\\Areas\\BigonAdmin\\Views\\Shared\\_LayoutAdmin.cshtml",
-              "RelativeToolTip": "BigonApp\\Areas\\BigonAdmin\\Views\\Shared\\_LayoutAdmin.cshtml",
-              "ViewState": "AQIAAM8BAAAAAAAAAAAAANYBAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-13T19:00:35.078Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "BlogGetByIdHandlerRequest.cs",
-              "DocumentMoniker": "D:\\Praktikant\\GarageTask\\BigonApp\\Bigon.Business\\Modules\\BlogsModule\\Queries\\BlogGetByIdQuery\\BlogGetByIdHandlerRequest.cs",
-              "RelativeDocumentMoniker": "Bigon.Business\\Modules\\BlogsModule\\Queries\\BlogGetByIdQuery\\BlogGetByIdHandlerRequest.cs",
-              "ToolTip": "D:\\Praktikant\\GarageTask\\BigonApp\\Bigon.Business\\Modules\\BlogsModule\\Queries\\BlogGetByIdQuery\\BlogGetByIdHandlerRequest.cs",
-              "RelativeToolTip": "Bigon.Business\\Modules\\BlogsModule\\Queries\\BlogGetByIdQuery\\BlogGetByIdHandlerRequest.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-13T18:59:19.741Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "BlogGetAllHandlerRequest.cs",
-              "DocumentMoniker": "D:\\Praktikant\\GarageTask\\BigonApp\\Bigon.Business\\Modules\\BlogsModule\\Queries\\BlogGetAllQuery\\BlogGetAllHandlerRequest.cs",
-              "RelativeDocumentMoniker": "Bigon.Business\\Modules\\BlogsModule\\Queries\\BlogGetAllQuery\\BlogGetAllHandlerRequest.cs",
-              "ToolTip": "D:\\Praktikant\\GarageTask\\BigonApp\\Bigon.Business\\Modules\\BlogsModule\\Queries\\BlogGetAllQuery\\BlogGetAllHandlerRequest.cs",
-              "RelativeToolTip": "Bigon.Business\\Modules\\BlogsModule\\Queries\\BlogGetAllQuery\\BlogGetAllHandlerRequest.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-13T18:59:06.12Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "BlogGetAllDto.cs",
-              "DocumentMoniker": "D:\\Praktikant\\GarageTask\\BigonApp\\Bigon.Business\\Modules\\BlogsModule\\Queries\\BlogGetAllQuery\\BlogGetAllDto.cs",
-              "RelativeDocumentMoniker": "Bigon.Business\\Modules\\BlogsModule\\Queries\\BlogGetAllQuery\\BlogGetAllDto.cs",
-              "ToolTip": "D:\\Praktikant\\GarageTask\\BigonApp\\Bigon.Business\\Modules\\BlogsModule\\Queries\\BlogGetAllQuery\\BlogGetAllDto.cs",
-              "RelativeToolTip": "Bigon.Business\\Modules\\BlogsModule\\Queries\\BlogGetAllQuery\\BlogGetAllDto.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-13T18:58:49.197Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "BlogGetByIdDto.cs",
-              "DocumentMoniker": "D:\\Praktikant\\GarageTask\\BigonApp\\Bigon.Business\\Modules\\BlogsModule\\Queries\\BlogGetByIdQuery\\BlogGetByIdDto.cs",
-              "RelativeDocumentMoniker": "Bigon.Business\\Modules\\BlogsModule\\Queries\\BlogGetByIdQuery\\BlogGetByIdDto.cs",
-              "ToolTip": "D:\\Praktikant\\GarageTask\\BigonApp\\Bigon.Business\\Modules\\BlogsModule\\Queries\\BlogGetByIdQuery\\BlogGetByIdDto.cs",
-              "RelativeToolTip": "Bigon.Business\\Modules\\BlogsModule\\Queries\\BlogGetByIdQuery\\BlogGetByIdDto.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-13T18:58:37.571Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 4,
               "Title": "_Body.cshtml",
               "DocumentMoniker": "D:\\Praktikant\\GarageTask\\BigonApp\\BigonApp\\Areas\\BigonAdmin\\Views\\Blog\\_Body.cshtml",
               "RelativeDocumentMoniker": "BigonApp\\Areas\\BigonAdmin\\Views\\Blog\\_Body.cshtml",
               "ToolTip": "D:\\Praktikant\\GarageTask\\BigonApp\\BigonApp\\Areas\\BigonAdmin\\Views\\Blog\\_Body.cshtml",
               "RelativeToolTip": "BigonApp\\Areas\\BigonAdmin\\Views\\Blog\\_Body.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAASAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-13T18:55:47.193Z"
+              "WhenOpened": "2024-06-20T20:33:13.957Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "additional.css",
-              "DocumentMoniker": "D:\\Praktikant\\GarageTask\\BigonApp\\BigonApp\\wwwroot\\admin\\assets\\css\\additional.css",
-              "RelativeDocumentMoniker": "BigonApp\\wwwroot\\admin\\assets\\css\\additional.css",
-              "ToolTip": "D:\\Praktikant\\GarageTask\\BigonApp\\BigonApp\\wwwroot\\admin\\assets\\css\\additional.css",
-              "RelativeToolTip": "BigonApp\\wwwroot\\admin\\assets\\css\\additional.css",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACYAAAAEAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-06-13T18:55:10.528Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "BlogAddHandlerRequest.cs",
-              "DocumentMoniker": "D:\\Praktikant\\GarageTask\\BigonApp\\Bigon.Business\\Modules\\BlogsModule\\Commands\\BlogAddCommands\\BlogAddHandlerRequest.cs",
-              "RelativeDocumentMoniker": "Bigon.Business\\Modules\\BlogsModule\\Commands\\BlogAddCommands\\BlogAddHandlerRequest.cs",
-              "ToolTip": "D:\\Praktikant\\GarageTask\\BigonApp\\Bigon.Business\\Modules\\BlogsModule\\Commands\\BlogAddCommands\\BlogAddHandlerRequest.cs",
-              "RelativeToolTip": "Bigon.Business\\Modules\\BlogsModule\\Commands\\BlogAddCommands\\BlogAddHandlerRequest.cs",
-              "ViewState": "AQIAAAcAAAAAAAAAAAAvwBQAAAAAAAAA",
+              "DocumentIndex": 5,
+              "Title": "CategoryController.cs",
+              "DocumentMoniker": "D:\\Praktikant\\GarageTask\\BigonApp\\BigonApp\\Areas\\BigonAdmin\\Controllers\\CategoryController.cs",
+              "RelativeDocumentMoniker": "BigonApp\\Areas\\BigonAdmin\\Controllers\\CategoryController.cs",
+              "ToolTip": "D:\\Praktikant\\GarageTask\\BigonApp\\BigonApp\\Areas\\BigonAdmin\\Controllers\\CategoryController.cs",
+              "RelativeToolTip": "BigonApp\\Areas\\BigonAdmin\\Controllers\\CategoryController.cs",
+              "ViewState": "AQIAACMAAAAAAAAAAAA5wC0AAAAxAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-13T18:53:55.069Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "BlogAddRequest.cs",
-              "DocumentMoniker": "D:\\Praktikant\\GarageTask\\BigonApp\\Bigon.Business\\Modules\\BlogsModule\\Commands\\BlogAddCommands\\BlogAddRequest.cs",
-              "RelativeDocumentMoniker": "Bigon.Business\\Modules\\BlogsModule\\Commands\\BlogAddCommands\\BlogAddRequest.cs",
-              "ToolTip": "D:\\Praktikant\\GarageTask\\BigonApp\\Bigon.Business\\Modules\\BlogsModule\\Commands\\BlogAddCommands\\BlogAddRequest.cs",
-              "RelativeToolTip": "Bigon.Business\\Modules\\BlogsModule\\Commands\\BlogAddCommands\\BlogAddRequest.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAHAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-13T18:53:39.497Z"
+              "WhenOpened": "2024-06-20T20:32:15.986Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "BlogController.cs",
-              "DocumentMoniker": "D:\\Praktikant\\GarageTask\\BigonApp\\BigonApp\\Areas\\BigonAdmin\\Controllers\\BlogController.cs",
-              "RelativeDocumentMoniker": "BigonApp\\Areas\\BigonAdmin\\Controllers\\BlogController.cs",
-              "ToolTip": "D:\\Praktikant\\GarageTask\\BigonApp\\BigonApp\\Areas\\BigonAdmin\\Controllers\\BlogController.cs",
-              "RelativeToolTip": "BigonApp\\Areas\\BigonAdmin\\Controllers\\BlogController.cs",
-              "ViewState": "AQIAACkAAAAAAAAAAAAAwDoAAAA9AAAA",
+              "Title": "ColorsDeleteHandlerRequest.cs",
+              "DocumentMoniker": "D:\\Praktikant\\GarageTask\\BigonApp\\Bigon.Business\\Modules\\ColorsModule\\Commands\\ColorsDeleteCommands\\ColorsDeleteHandlerRequest.cs",
+              "RelativeDocumentMoniker": "Bigon.Business\\Modules\\ColorsModule\\Commands\\ColorsDeleteCommands\\ColorsDeleteHandlerRequest.cs",
+              "ToolTip": "D:\\Praktikant\\GarageTask\\BigonApp\\Bigon.Business\\Modules\\ColorsModule\\Commands\\ColorsDeleteCommands\\ColorsDeleteHandlerRequest.cs",
+              "RelativeToolTip": "Bigon.Business\\Modules\\ColorsModule\\Commands\\ColorsDeleteCommands\\ColorsDeleteHandlerRequest.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-13T18:52:32.874Z"
+              "WhenOpened": "2024-06-20T20:32:02.985Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "CategoryGetAllHandlerRequest.cs",
+              "DocumentMoniker": "D:\\Praktikant\\GarageTask\\BigonApp\\Bigon.Business\\Modules\\CategoriesModule\\Queries\\CategoryGetAllQuery\\CategoryGetAllHandlerRequest.cs",
+              "RelativeDocumentMoniker": "Bigon.Business\\Modules\\CategoriesModule\\Queries\\CategoryGetAllQuery\\CategoryGetAllHandlerRequest.cs",
+              "ToolTip": "D:\\Praktikant\\GarageTask\\BigonApp\\Bigon.Business\\Modules\\CategoriesModule\\Queries\\CategoryGetAllQuery\\CategoryGetAllHandlerRequest.cs",
+              "RelativeToolTip": "Bigon.Business\\Modules\\CategoriesModule\\Queries\\CategoryGetAllQuery\\CategoryGetAllHandlerRequest.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-20T20:31:26.051Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "BlogRemoveHandlerRequest.cs",
+              "DocumentMoniker": "D:\\Praktikant\\GarageTask\\BigonApp\\Bigon.Business\\Modules\\BlogsModule\\Commands\\BlogRemoveCommands\\BlogRemoveHandlerRequest.cs",
+              "RelativeDocumentMoniker": "Bigon.Business\\Modules\\BlogsModule\\Commands\\BlogRemoveCommands\\BlogRemoveHandlerRequest.cs",
+              "ToolTip": "D:\\Praktikant\\GarageTask\\BigonApp\\Bigon.Business\\Modules\\BlogsModule\\Commands\\BlogRemoveCommands\\BlogRemoveHandlerRequest.cs",
+              "RelativeToolTip": "Bigon.Business\\Modules\\BlogsModule\\Commands\\BlogRemoveCommands\\BlogRemoveHandlerRequest.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-20T20:31:11.431Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "CategoryRemoveRequest.cs",
+              "DocumentMoniker": "D:\\Praktikant\\GarageTask\\BigonApp\\Bigon.Business\\Modules\\CategoriesModule\\Commands\\CategoryRemoveCommands\\CategoryRemoveRequest.cs",
+              "RelativeDocumentMoniker": "Bigon.Business\\Modules\\CategoriesModule\\Commands\\CategoryRemoveCommands\\CategoryRemoveRequest.cs",
+              "ToolTip": "D:\\Praktikant\\GarageTask\\BigonApp\\Bigon.Business\\Modules\\CategoriesModule\\Commands\\CategoryRemoveCommands\\CategoryRemoveRequest.cs",
+              "RelativeToolTip": "Bigon.Business\\Modules\\CategoriesModule\\Commands\\CategoryRemoveCommands\\CategoryRemoveRequest.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-20T20:30:24.104Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CategoryRemoveHandlerRequest.cs",
+              "DocumentMoniker": "D:\\Praktikant\\GarageTask\\BigonApp\\Bigon.Business\\Modules\\CategoriesModule\\Commands\\CategoryRemoveCommands\\CategoryRemoveHandlerRequest.cs",
+              "RelativeDocumentMoniker": "Bigon.Business\\Modules\\CategoriesModule\\Commands\\CategoryRemoveCommands\\CategoryRemoveHandlerRequest.cs",
+              "ToolTip": "D:\\Praktikant\\GarageTask\\BigonApp\\Bigon.Business\\Modules\\CategoriesModule\\Commands\\CategoryRemoveCommands\\CategoryRemoveHandlerRequest.cs",
+              "RelativeToolTip": "Bigon.Business\\Modules\\CategoriesModule\\Commands\\CategoryRemoveCommands\\CategoryRemoveHandlerRequest.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-20T20:29:03.018Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Praktikant\\GarageTask\\BigonApp\\BigonApp\\Areas\\BigonAdmin\\Views\\Blog\\Index.cshtml",
+              "RelativeDocumentMoniker": "BigonApp\\Areas\\BigonAdmin\\Views\\Blog\\Index.cshtml",
+              "ToolTip": "D:\\Praktikant\\GarageTask\\BigonApp\\BigonApp\\Areas\\BigonAdmin\\Views\\Blog\\Index.cshtml",
+              "RelativeToolTip": "BigonApp\\Areas\\BigonAdmin\\Views\\Blog\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-20T20:26:33.04Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Praktikant\\GarageTask\\BigonApp\\BigonApp\\Areas\\BigonAdmin\\Views\\Category\\Index.cshtml",
+              "RelativeDocumentMoniker": "BigonApp\\Areas\\BigonAdmin\\Views\\Category\\Index.cshtml",
+              "ToolTip": "D:\\Praktikant\\GarageTask\\BigonApp\\BigonApp\\Areas\\BigonAdmin\\Views\\Category\\Index.cshtml",
+              "RelativeToolTip": "BigonApp\\Areas\\BigonAdmin\\Views\\Category\\Index.cshtml",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAkwBwAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-20T20:26:14.265Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "_Body.cshtml",
+              "DocumentMoniker": "D:\\Praktikant\\GarageTask\\BigonApp\\BigonApp\\Areas\\BigonAdmin\\Views\\Category\\_Body.cshtml",
+              "RelativeDocumentMoniker": "BigonApp\\Areas\\BigonAdmin\\Views\\Category\\_Body.cshtml",
+              "ToolTip": "D:\\Praktikant\\GarageTask\\BigonApp\\BigonApp\\Areas\\BigonAdmin\\Views\\Category\\_Body.cshtml",
+              "RelativeToolTip": "BigonApp\\Areas\\BigonAdmin\\Views\\Category\\_Body.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAA9AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-20T20:26:10.339Z",
+              "EditorCaption": ""
             }
           ]
         }
